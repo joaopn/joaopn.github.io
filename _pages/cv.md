@@ -11,30 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.Sc. in Physics, State University of Campinas, Brazil (2011)
+* M.Sc. in Physics, State University of Campinas, Brazil (2014)
+* Ph.D in Physics, University of Goettingen, Germany (2019, expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 11/2013-03/2014: Visiting Researcher at University of Bremen (Germany)
+  * Description: stay at the [Complex Systems Lab] (http://www.itp.uni-bremen.de/complex/) under supervision of Prof. Dr. Stefan Bornholdt. 
+  * Funding: Sao Paulo Research Foundation (FAPESP)
   
+* 2009-2011: Research Assistant at State University of Campinas (Brazil)
+  * Description: Teaching of classes and holding office hours for undergraduate disciplines.
+  * Disciplines
+    * F129 Experimental Physics I (2009, 2011)
+    * ME210 Probability I (2010)
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
 
 Publications
 ======
@@ -53,7 +48,3 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
