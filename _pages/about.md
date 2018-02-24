@@ -10,4 +10,4 @@ redirect_from:
 
 IN CONSTRUCTION.
 
-Hi! I'm João (or Joao), a PhD student in Physics at the [Max Planck Institute for Dynamics and Self-Organization](https://www.ds.mpg.de/en), working in the field of Computational Neuroscience.
+Hi! I'm João (or Joao), a PhD student at the [Max Planck Institute for Dynamics and Self-Organization](https://www.ds.mpg.de/en), working in the field of Computational Neuroscience. My background is in Physics.
