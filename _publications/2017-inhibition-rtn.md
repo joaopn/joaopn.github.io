@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2017-inhibition-rtn
 excerpt: ""
 date: 2017-12-23
-venue: 'arXiv'
+venue: 'arXiv (submitted)'
 paperurl: 'https://arxiv.org/abs/1712.08816'
 citation: 'Pinheiro Neto, J., de Aguiar, M. A. M., Brum, J. A., & Bornholdt, S. (2017). Inhibition as a determinant of activity and criticality in dynamical networks. arXiv:1712.08816v1'
 ---
