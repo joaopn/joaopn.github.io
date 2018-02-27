@@ -1,6 +1,6 @@
 ---
 title: "Sampling bias in neural network dynamics"
-excerpt: "<br/><img src='/images/projects-sampling.png'><br>Types of sampling in large networks."
+excerpt: "Fig: Types of sampling in large networks. <br/><img src='/images/projects-sampling.png'><br>"
 collection: projects
 ---
 

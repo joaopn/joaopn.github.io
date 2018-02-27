@@ -1,6 +1,6 @@
 ---
 title: "Effects of Inhibition in neural networks"
-excerpt: "<br/><img src='/images/projects-inhibition.png'><br>Network sensitivity dependence on the degree K and fraction of inhibition F_+."
+excerpt: "Fig: Network sensitivity dependence on the degree K and fraction of inhibition F_+.<br/><img src='/images/projects-inhibition.png'><br>"
 collection: projects
 ---
 
