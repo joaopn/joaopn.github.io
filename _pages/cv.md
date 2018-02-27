@@ -17,17 +17,17 @@ Education
 * B.Sc. in Physics, State University of Campinas, Brazil (2011)
 
 * M.Sc. in Physics, State University of Campinas, Brazil (2014)
-  * Title: *A study on the dynamics of neural networks* [(Link)](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962)
-  * Supervisor: Jose Antonio Brum
+  * Title: *A study on the dynamics of neural networks*  [(Link)](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962)
+  * Supervisor: Prof. Dr. Jose Antonio Brum
 
 * Ph.D. in Physics, University of Goettingen, Germany (2019, expected)
-  * Title: The impact of dynamical states on neural networks
-  * Supervisor: Viola Priesemann
+  * Title: *The impact of dynamical states on neural networks*
+  * Supervisor: Dr. Viola Priesemann [(website)][http://www.viola-priesemann.de]
 
 Work experience
 ======
 * 11/2013-03/2014: Visiting Researcher at University of Bremen (Germany)
-  * Description: stay at the [Complex Systems Lab](http://www.itp.uni-bremen.de/complex/) (PI: Prof. Dr. Stefan Bornholdt)
+  * Description: stay at the Complex Systems Lab, under Prof. Dr. Stefan Bornholdt  [(Link)][http://www.itp.uni-bremen.de/complex/]
   * Funding: Sao Paulo Research Foundation (FAPESP)
 
 * 2009-2011: Teaching Assistant at State University of Campinas (Brazil)
