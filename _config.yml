@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal website"
+title                    : "About me"
 title_separator          : "-"
 name                     : &name "Joao Pinheiro Neto"
 description              : &description "Website of Joao Pinheiro Neto"
