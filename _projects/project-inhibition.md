@@ -1,10 +1,13 @@
 ---
 title: "Effects of Inhibition in neural networks"
-excerpt: "Fig: Network sensitivity dependence on the degree K and fraction of inhibition F_+.<br/><img src='/images/projects-inhibition.png'><br>"
+excerpt: "<img src='/images/projects-inhibition.png'>"
 collection: projects
 ---
 
 Inhibition is an important factor in many networks. Particularly, inhibitory synapses play a large role in regulating neuronal activity in the brain.  Beyond modulating firing rates, it can suppress pathways and influence large-scale dynamical properties of the brain.  This project aims to understand how varying degrees of inhibition can influence dynamical properties such as phase transitions and attractors in neural networks.
+
+<br/><img src='/images/projects-inhibition.png'><br>
+Fig: Network sensitivity dependence on the degree K and fraction of inhibition F_+.
 
 Publications:
 

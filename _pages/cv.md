@@ -17,7 +17,7 @@ Education
 * B.Sc. in Physics, State University of Campinas, Brazil (2011)
 
 * M.Sc. in Physics, State University of Campinas, Brazil (2014)
-  * Title: [A study on the dynamics of neural networks](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962)
+  * Title: *A study on the dynamics of neural networks* [(Link)](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962)
   * Supervisor: Jose Antonio Brum
 
 * Ph.D. in Physics, University of Goettingen, Germany (2019, expected)
