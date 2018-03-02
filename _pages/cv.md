@@ -36,14 +36,15 @@ Professional experience
 
 Skills
 ======
-* Computational:
-  * Proficient: MATLAB, git, LaTeX.
-  * Intermediate: Shell Script (BASH), Mathematica
-  * Basic: Python, C, CUDA, TensorFlow
 
 * Modelling
 
 * Data Analysis
+
+* Computational:
+  * Proficient: MATLAB, git, LaTeX.
+  * Intermediate: Shell Script (BASH), Mathematica
+  * Basic: Python, C, CUDA, TensorFlow
 
 
 Publications
