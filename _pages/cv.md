@@ -14,17 +14,17 @@ redirect_from:
 
 Education
 ======
-* B.Sc. in Physics, State University of Campinas, Brazil (2011)
+* **BSc in Physics**, State University of Campinas (2011)
 
-* M.Sc. in Physics, State University of Campinas, Brazil (2014)
+* **MSc in Physics**, State University of Campinas (2014)
   * Title: *A study on the dynamics of neural networks*  [(Link)](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962)
   * Supervisor: Prof. Dr. Jose Antonio Brum
 
-* Ph.D. in Physics, University of Goettingen, Germany (2019, expected)
+* **PhD in Physics**, Max Planck Institute for Dynamics and Self-Organization (2019, expected)
   * Title: *The impact of dynamical states on neural networks*
   * Supervisor: Dr. Viola Priesemann [(website)](http://www.viola-priesemann.de)
 
-Work experience
+Professional experience
 ======
 * 11/2013-03/2014: Visiting Researcher at University of Bremen (Germany)
   * Description: stay at the Complex Systems Lab, under Prof. Dr. Stefan Bornholdt  [(Link)](http://www.itp.uni-bremen.de/complex/)
@@ -36,6 +36,14 @@ Work experience
 
 Skills
 ======
+* Computational:
+  * Proficient: MATLAB, git, LaTeX.
+  * Intermediate: Shell Script (BASH), Mathematica
+  * Basic: Python, C, CUDA, TensorFlow
+
+* Modelling
+
+* Data Analysis
 
 
 Publications

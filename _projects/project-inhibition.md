@@ -1,6 +1,6 @@
 ---
 title: "Effects of Inhibition in neural networks"
-excerpt: "<img src='/images/projects-inhibition.png'>"
+excerpt: "Click on the title for a summary.<br/><img src='/images/projects-inhibition.png'>"
 collection: projects
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Sampling bias in neural network dynamics"
-excerpt: "<img src='/images/projects-sampling.png'>"
+excerpt: "Click on the title for a summary.<br/><img src='/images/projects-sampling.png'>"
 collection: projects
 ---
 
