@@ -17,17 +17,17 @@ Education
 * **BSc in Physics**, State University of Campinas (2011)
 
 * **MSc in Physics**, State University of Campinas (2014)
-  * Title: *A study on the dynamics of neural networks*  [(Link)](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962)
-  * Supervisor: Prof. Dr. Jose Antonio Brum
+  * Title: [*A study on the dynamics of neural networks*]((http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962) [(PDF)](http://joaopn.github.io/dissertations/MSc_Dissertation.pdf)
+  * Supervisor: [Prof. Dr. Jose Antonio Brum](https://sites.ifi.unicamp.br/brum/en/)
 
 * **PhD in Physics**, Max Planck Institute for Dynamics and Self-Organization (2019, expected)
   * Title: *The impact of dynamical states on neural networks*
-  * Supervisor: Dr. Viola Priesemann [(website)](http://www.viola-priesemann.de)
+  * Supervisor: [Dr. Viola Priesemann](http://www.viola-priesemann.de)
 
 Professional experience
 ======
 * 11/2013-03/2014: Visiting Researcher at University of Bremen (Germany)
-  * Description: stay at the Complex Systems Lab, under Prof. Dr. Stefan Bornholdt  [(Link)](http://www.itp.uni-bremen.de/complex/)
+  * Description: stay at the [Complex Systems Lab](http://www.itp.uni-bremen.de/complex/), under Prof. Dr. Stefan Bornholdt.
   * Funding: Sao Paulo Research Foundation (FAPESP)
 
 * 2009-2011: Teaching Assistant at State University of Campinas (Brazil)
@@ -43,8 +43,8 @@ Skills
 
 * Computational:
   * Proficient: MATLAB, git, LaTeX.
-  * Intermediate: Shell Script (BASH), Mathematica
-  * Basic: Python, C, CUDA, TensorFlow
+  * Intermediate: C, Shell Script (BASH), Mathematica
+  * Basic: Python, CUDA, TensorFlow
 
 
 Publications
