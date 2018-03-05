@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Joao Pinheiro Neto"
   avatar           : "profile.jpeg"
-  bio              : "B.Sc., M.Sc. in Physics. PhD student at the <a style='color: black;' href='http://www.nld.ds.mpg.de'>Max Planck Institute for Dynamics and Self-Organization</a>."
+  bio              : "BSc, MSc in Physics. PhD student at the <a style='color: black;' href='http://www.nld.ds.mpg.de'>Max Planck Institute for Dynamics and Self-Organization</a>."
   location         : "Goettingen, Germany"
   employer         :
   googlescholar    : "https://scholar.google.de/citations?user=nq61A04AAAAJ&hl"
@@ -92,7 +92,7 @@ author:
   flickr           : "145039544@N07"
   facebook         :
   foursquare       :
-  github           : "joaopn"
+  github           :
   google_plus      :
   keybase          :
   instagram        : "joao.p.n"
