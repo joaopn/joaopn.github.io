@@ -9,4 +9,4 @@ location: "Bernstein Center for Computational Neuroscience Berlin, Berlin, DE"
 #excerpt: "<a href="https://abstracts.g-node.org/abstracts/87f51f85-8fba-46c8-8868-0e6647a6111a">Event URL</a>"
 ---
 
-[Event URL](https://abstracts.g-node.org/abstracts/87f51f85-8fba-46c8-8868-0e6647a6111a)
+[Abstract URL](https://abstracts.g-node.org/abstracts/87f51f85-8fba-46c8-8868-0e6647a6111a)
