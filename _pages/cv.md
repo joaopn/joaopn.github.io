@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 
-[Complete CV](http://joaopn.github.io/files/cv.pdf)
+[Complete CV](https://www.dropbox.com/s/7ry6re5p9fz6j0k/CV%20Joao.pdf?dl=1)
 
 Education
 ======
