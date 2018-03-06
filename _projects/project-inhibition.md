@@ -13,4 +13,4 @@ Publications:
 
 [1] Pinheiro Neto, J., de Aguiar, M. A. M., Brum, J. A., & Bornholdt, S. (2017). Inhibition as a determinant of activity and criticality in dynamical networks. arXiv:1712.08816v1 https://arxiv.org/abs/1712.08816
 
-[2] Pinheiro Neto, J. (2014). A study on the structure and dynamics of complex networks. Universidade Estadual de Campinas. (Link)[http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962]
+[2] Pinheiro Neto, J. (2014). A study on the structure and dynamics of complex networks. Universidade Estadual de Campinas. [(Link)](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962)

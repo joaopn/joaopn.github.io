@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-IN CONSTRUCTION.
-
-Hi! I'm Joao, a PhD student at the [Max Planck Institute for Dynamics and Self-Organization](https://www.ds.mpg.de/en), working in the field of Computational Neuroscience. My background is in Physics, with emphasis on collective dynamics of large-scale systems.
+Hi! I'm Joao, a PhD student at the [Max Planck Institute for Dynamics and Self-Organization](https://www.ds.mpg.de/en), working in the field of Computational Neuroscience. My background is in Physics. My main research interest is in the large-scale dynamical behavior of brain networks.

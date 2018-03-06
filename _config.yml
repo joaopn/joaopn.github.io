@@ -89,7 +89,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "145039544@N07"
+  flickr           : #"145039544@N07"
   facebook         :
   foursquare       :
   github           :
@@ -98,7 +98,7 @@ author:
   instagram        : "joao.p.n"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0003-3027-8276"
+  orcid            : #"https://orcid.org/0000-0003-3027-8276"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
