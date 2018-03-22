@@ -55,6 +55,6 @@ Publications
 
 Presentations & Abstracts
 ======
-  <ul>{% for post in site.presentations %}
+  <ul>{% for post in site.presentations reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
