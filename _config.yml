@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "About me"
+title                    : "joaopn.github.io"
 title_separator          : "-"
 name                     : &name "Joao Pinheiro Neto"
 description              : &description "Website of Joao Pinheiro Neto"
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Joao Pinheiro Neto"
   avatar           : "profile.jpeg"
-  bio              : "BSc, MSc in Physics. PhD student at the <a style='color: black;' href='http://www.nld.ds.mpg.de'>Max Planck Institute for Dynamics and Self-Organization</a>."
+  bio              : "BSc, MSc in Physics. PhD student at the <a style='color: black;' href='http://www.ds.mpg.de'>Max Planck Institute for Dynamics and Self-Organization</a>."
   location         : "Goettingen, Germany"
   employer         :
   googlescholar    : "https://scholar.google.de/citations?user=nq61A04AAAAJ&hl"
@@ -92,12 +92,12 @@ author:
   flickr           : #"145039544@N07"
   facebook         :
   foursquare       :
-  github           :
+  github           : "joaopn"
   google_plus      :
   keybase          :
   instagram        : "joao.p.n"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/joao-pinheiro-neto-45b649171/"
   orcid            : #"https://orcid.org/0000-0003-3027-8276"
   pinterest        :
   soundcloud       :
@@ -169,13 +169,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  projects:
     output: true
     permalink: /:collection/:path/
   presentations:
@@ -203,15 +197,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -221,10 +206,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
     values:
       layout: single
       author_profile: true
