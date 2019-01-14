@@ -5,8 +5,8 @@ permalink: /publication/2018-review-reverberating
 excerpt: ""
 date: 2018-11-06
 venue: 'Frontiers in Systems Neuroscience'
-paperurl: 'https://www.frontiersin.org/articles/10.3389/fnsys.2018.00055/'
-citation: 'Wilting, J. et al. Operating in a Reverberating Regime Enables Rapid Tuning of Network States to Task Requirements. Front. Syst. Neurosci. 12, (2018).'
+paperurl: 'https://www.frontiersin.org/articles/10.3389/fnsys.2018.00055'
+citation: 'Wilting J., Dehning, J., Pinheiro Neto, J., Rudelt, L., Wibral, M., Zierenberg, J., Priesemann, V., Operating in a Reverberating Regime Enables Rapid Tuning of Network States to Task Requirements. Front. Syst. Neurosci. 12, (2018).'
 ---
 Abstract:
 

@@ -52,9 +52,3 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-Presentations & Abstracts
-======
-  <ul>{% for post in site.presentations reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
