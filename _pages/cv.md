@@ -17,7 +17,7 @@ Education
 * **BSc in Physics**, State University of Campinas (2011)
 
 * **MSc in Physics**, State University of Campinas (2014)
-  * Title: [*A study on the dynamics of neural networks*](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962) [(PDF)](http://joaopn.github.io/dissertations/MSc_Dissertation.pdf)
+  * Title: [*A study on the dynamics of neural networks*](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962) [(PDF)](http://joaopn.github.io/files/dissertations/MSc_Dissertation.pdf)
   * Supervisor: [Prof. Dr. Jose Antonio Brum](https://sites.ifi.unicamp.br/brum/en/)
 
 * **PhD in Physics**, Max Planck Institute for Dynamics and Self-Organization (2019, expected)
@@ -42,9 +42,9 @@ Skills
 * Data Analysis
 
 * Computational:
-  * Proficient: MATLAB, git, LaTeX.
-  * Intermediate: C, Shell Script (BASH), Mathematica
-  * Basic: Python, CUDA, TensorFlow
+  * Proficient: MATLAB®, Python, git
+  * Intermediate:  C, Shell Script, Mathematica®
+  * Basic: R, CUDA®, TensorFlow, Julia
 
 
 Publications
