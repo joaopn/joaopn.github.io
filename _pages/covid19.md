@@ -21,17 +21,18 @@ Evolution of the number of confirmed cases in Germany and Lower Saxony, with a f
 
 </details>
 
-<details><summary><h1>Forecast for Brazil, United States, Spain, Iran and France</h1></summary>
+<details><summary><h1>Forecast for Brazil, US, UK, France, Switzerland, Spain</h1></summary>
 
 
-Evolution of the number of confirmed cases in Brazil, United States, Spain, Iran and France, with a forecast based on the average change from the previous 3 days. Up-to-date plots for all 193 countries, and other measures such as number of deaths, are available <a href="https://github.com/joaopn/coronavirus_2020/tree/master/plots/johnhopkins"><u>here</u></a>.
+Evolution of the number of confirmed cases in Brazil, United States, United Kingdom, France, Switzerland and Spain, with a forecast based on the average change from the previous 3 days. Up-to-date figures for all 193 countries with available data, and other measures such as number of deaths, are available <a href="https://github.com/joaopn/coronavirus_2020/tree/master/plots/johnhopkins"><u>here</u></a>.
 
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/brazil_confirmed.png"/>
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/us_confirmed.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/spain_confirmed.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/iran_confirmed.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/united%20kingdom_confirmed.png"/>
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/france_confirmed.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/switzerland_confirmed.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/spain_confirmed.png"/>
 </details>
 
 
