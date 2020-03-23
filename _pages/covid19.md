@@ -5,13 +5,13 @@ permalink: /covid19/
 author_profile: true
 ---
 
-From [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus_disease_2019): 
+From [__Wikipedia__](https://en.wikipedia.org/wiki/Coronavirus_disease_2019): 
 
 > Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease was first identified in 2019 in Wuhan, the capital of Hubei province in central China, and has since spread globally, resulting in the 2019–20 coronavirus pandemic. Common symptoms include fever, cough, and shortness of breath. Muscle pain, sputum production, diarrhea, and sore throat are less common. While the majority of cases result in mild symptoms, some progress to severe pneumonia and multi-organ failure.
 
 <details open>
 <summary>
-### Forecast in Germany and Lower Saxony
+##Forecast in Germany and Lower Saxony
 </summary>
 <br>
 Below you will find evolution of the local situation in Germany and Lower Saxony, with a forecast based on the average increase for the last 3 days.
@@ -22,10 +22,10 @@ Figure: (A) Number of confirmed cases and short-term forecast for Germany. (B) S
 
 <details>
 <summary>
-### Forecast in Brazil, United States, Spain, Iran and France ###
+## Forecast in Brazil, United States, Spain, Iran and France
 </summary>
 <br>
-Below you will find evolution of the local situation in Brazil, United States, Spain, Iran and France, with a forecast based on the average increase for the last 3 days. Up-to-date plots of all 193 countries are available (here)[https://github.com/joaopn/coronavirus_2020/tree/master/plots/johnhopkins]. 
+Below you will find evolution of the local situation in Brazil, United States, Spain, Iran and France, with a forecast based on the average increase for the last 3 days. Up-to-date plots of all 193 countries are available [**here**](https://github.com/joaopn/coronavirus_2020/tree/master/plots/johnhopkins). 
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/brazil_confirmed.png"/>
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/us_confirmed.png"/>
