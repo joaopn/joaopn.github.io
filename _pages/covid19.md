@@ -11,20 +11,20 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus_disease_2019):
 
 Below you will find up-to-date (daily) figures with the evolution of confirmed cases and forecasts for the next few days.
 
-<details open><summary><h1>Forecast of Germany and Lower Saxony</h1></summary>
+<details open><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
 
 
 Evolution of the number of confirmed cases in Germany and Lower Saxony, with a forecast based on the average change from the previous 3 days.
 
 
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_en.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_pred_en.png"/>
 
 </details>
 
-<details><summary><h1>Forecast of Brazil, United States, Spain, Iran and France</h1></summary>
+<details><summary><h1>Forecast for Brazil, United States, Spain, Iran and France</h1></summary>
 
 
-Evolution of the number of confirmed cases in Brazil, United States, Spain, Iran and France, with a forecast based on the average change from the previous 3 days. Up-to-date plots for all 193 countries are available <a href="https://github.com/joaopn/coronavirus_2020/tree/master/plots/johnhopkins"><u>here</u></a>.
+Evolution of the number of confirmed cases in Brazil, United States, Spain, Iran and France, with a forecast based on the average change from the previous 3 days. Up-to-date plots for all 193 countries, and other measures such as number of deaths, are available <a href="https://github.com/joaopn/coronavirus_2020/tree/master/plots/johnhopkins"><u>here</u></a>.
 
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/johnhopkins/brazil_confirmed.png"/>
