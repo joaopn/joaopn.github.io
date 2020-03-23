@@ -17,8 +17,8 @@ Below you will find evolution of the local situation in Germany and Lower Saxony
 
 ![Forecast in Germany and Lower Saxony](https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_en.png)
 Figure: (A) Number of confirmed cases and short-term forecast for Germany. (B) Same as A for Lower Saxony.
-
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_en.png", alt="Forecast in Germany and Lower Saxony">
+<br>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_en.png"/>
 
 </details>
 
