@@ -3,8 +3,6 @@ layout: archive
 title: "COVID-19"
 permalink: /covid19/
 author_profile: true
-redirect_from:
-  - /covid19/
 ---
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Coronavirus_disease_2019): 
