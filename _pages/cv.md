@@ -42,9 +42,9 @@ Skills
 * Data Analysis
 
 * Computational:
-  * Proficient: MATLAB®, Python, git
-  * Intermediate:  C, Shell Script, Mathematica®
-  * Basic: R, CUDA®, TensorFlow, Julia
+  * Proficient: python, MATLAB®, git
+  * Intermediate:  Shell Script, C, Mathematica®
+  * Basic: R, SQL, TensorFlow, Julia
 
 
 Publications
