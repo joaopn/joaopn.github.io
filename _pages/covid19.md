@@ -7,11 +7,11 @@ author_profile: true
 
 > Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [...]. Common symptoms include fever, cough, and shortness of breath. Muscle pain, sputum production, diarrhea, and sore throat are less common. While the majority of cases result in mild symptoms, some progress to severe pneumonia and multi-organ failure. [(**Wikipedia**)](https://en.wikipedia.org/wiki/Coronavirus_disease_2019)
 
-Below you will find up-to-date (daily) figures with the evolution of confirmed cases and forecasts for the next few days. 
+Click on the headers below to find up-to-date (daily) figures with the evolution of confirmed cases and deaths, forecasts and age statistics for different regions and countries.
 
 For more information on the situation in the Goettingen area please consult the [**Goettingen Campus page**](https://goettingen-campus.de/coronavirus), and for more information in Germany please consult the [**Robert Koch Institute page**](https://www.rki.de/EN/Home/homepage_node.html). The data used comes from the [*Robert Koch Institute*](https://corona.rki.de/) and [*John Hopkins University*](https://github.com/CSSEGISandData/COVID-19). All code used is available on [**Github**](https://github.com/joaopn/coronavirus_2020). 
 
-<details open><summary><h1>Age statistics for Germany</h1></summary>
+<details><summary><h1>Age statistics for Germany</h1></summary>
 
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/age_germany.png"/>
@@ -24,9 +24,6 @@ For more information on the situation in the Goettingen area please consult the 
 </details>
 
 <details><summary><h1>Age statistics for Lower Saxony</h1></summary>
-
-
-Plots for all the other German states are available <a href="https://github.com/joaopn/coronavirus_2020/tree/master/plots/germany/bundesland"><u>here</u></a>.
 
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/age_lowersaxony.png"/>
@@ -79,6 +76,28 @@ Evolution of the number of confirmed cases in Brazil, United States, United King
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/evolution_en.png"/>
 
 <b>Figure:</b> Comparison of the evolution in cases and deaths in Germany, Italy and South Korea. Reported cases are aligned to days after the 100th case, and reported deaths are aligned to days after 1st death.
+
+
+</details>
+
+<details><summary><h1>Age statistics for all German Bundesland</h1></summary>
+
+
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/baden-wuerttemberg.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/bayern.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/berlin.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/brandenburg.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/bremen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/hamburg.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/mecklenburg-vorpommern.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/niedersachsen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/nordrhein-westfalen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/rheinland-pfalz.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/saarland.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/sachsen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/sachsen-anhalt.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/schleswig-holstein.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/thueringen.png"/>
 
 
 </details>
