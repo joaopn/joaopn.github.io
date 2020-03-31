@@ -7,9 +7,18 @@ author_profile: true
 
 > Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) [...]. Common symptoms include fever, cough, and shortness of breath. Muscle pain, sputum production, diarrhea, and sore throat are less common. While the majority of cases result in mild symptoms, some progress to severe pneumonia and multi-organ failure. [(**Wikipedia**)](https://en.wikipedia.org/wiki/Coronavirus_disease_2019)
 
-Click on the headers below to find up-to-date (daily) figures with the evolution of confirmed cases and deaths, forecasts and age statistics for different regions and countries.
+Click on the headers below to find up-to-date (daily) figures with the evolution of confirmed cases and deaths of COVID-19, forecasts and age statistics for different regions and countries.
 
 For more information on the situation in the Goettingen area please consult the [**Goettingen Campus page**](https://goettingen-campus.de/coronavirus), and for more information in Germany please consult the [**Robert Koch Institute page**](https://www.rki.de/EN/Home/homepage_node.html). The data used comes from the [*Robert Koch Institute*](https://corona.rki.de/) and [*John Hopkins University*](https://github.com/CSSEGISandData/COVID-19). All code used is available on [**Github**](https://github.com/joaopn/coronavirus_2020). 
+
+<details><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
+	
+
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_pred_en.png"/>
+
+<b>Figure:</b> Evolution of the number of confirmed cases in Germany (left) and Lower Saxony (right), with a forecast based on the average change from the previous 3 days.
+
+</details>
 
 <details><summary><h1>Age statistics for Germany</h1></summary>
 
@@ -44,37 +53,6 @@ For more information on the situation in the Goettingen area please consult the 
 <b>Top row:</b> Number of confirmed cases and deaths (left) and age distribution of cases (right).
 <b>Bottom row:</b>: Age distribution for senior citizens (60-79 and 80+ age groups) (left) and age distribution of deaths (right).
 
-
-</details>
-
-<details><summary><h1>Age statistics for all German Bundesland</h1></summary>
-
-
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/baden-wuerttemberg.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/bayern.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/berlin.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/brandenburg.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/bremen.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/hamburg.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/mecklenburg-vorpommern.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/niedersachsen.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/nordrhein-westfalen.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/rheinland-pfalz.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/saarland.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/sachsen.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/sachsen-anhalt.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/schleswig-holstein.png"/>
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/thueringen.png"/>
-
-
-</details>
-
-<details><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
-	
-
-<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_pred_en.png"/>
-
-<b>Figure:</b> Evolution of the number of confirmed cases in Germany (left) and Lower Saxony (right), with a forecast based on the average change from the previous 3 days.
 
 </details>
 
