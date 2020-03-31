@@ -11,42 +11,47 @@ Below you will find up-to-date (daily) figures with the evolution of confirmed c
 
 For more information on the situation in the Goettingen area please consult the [**Goettingen Campus page**](https://goettingen-campus.de/coronavirus), and for more information in Germany please consult the [**Robert Koch Institute page**](https://www.rki.de/EN/Home/homepage_node.html). The data used comes from the [*Robert Koch Institute*](https://corona.rki.de/) and [*John Hopkins University*](https://github.com/CSSEGISandData/COVID-19). All code used is available on [**Github**](https://github.com/joaopn/coronavirus_2020). 
 
-<details><summary><h1>Cases in Germany</h1></summary>
+<details open><summary><h1>Age distribution of cases in Germany</h1></summary>
+
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/age_germany.png"/>
 
-Age statistics for Germany. 
-**Top row**: Number of confirmed cases and deaths (left) and age distribution of cases (right). Dotted horizontal lines correspond to % of total population in that age group.
-**Bottom row**: Age distribution for senior citizens (60-79 and 80+ age groups) (left) and age distribution of deaths (right).
+<b>Figure:</b> Age statistics for Germany. 
+<b>Top row:</b> Number of confirmed cases and deaths (left) and age distribution of cases (right). Dotted horizontal lines correspond to % of total population in that age group.
+<b>Bottom row:</b>: Age distribution for senior citizens (60-79 and 80+ age groups) (left) and age distribution of deaths (right).
 
 
 </details>
 
-<details><summary><h1>Cases in Lower Saxony</h1></summary>
+<details><summary><h1>Age distribution of cases in Lower Saxony</h1></summary>
+
 
 Plots for all the other German states are available <a href="https://github.com/joaopn/coronavirus_2020/tree/master/plots/germany/bundesland"><u>here</u></a>.
 
+
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/age_lowersaxony.png"/>
 
-Age statistics for Lower Saxony. 
-**Top row**: Number of confirmed cases and deaths (left) and age distribution of cases (right). Dotted horizontal lines correspond to % of total population in that age group.
-**Bottom row**: Age distribution for senior citizens (60-79 and 80+ age groups) (left) and age distribution of deaths (right).
+<b>Figure:</b> Age statistics for Lower Saxony. 
+<b>Top row:</b> Number of confirmed cases and deaths (left) and age distribution of cases (right).
+<b>Bottom row:</b>: Age distribution for senior citizens (60-79 and 80+ age groups) (left) and age distribution of deaths (right).
 
 </details>
 
 
-<details open><summary><h1>Cases in Göttingen</h1></summary>
+<details><summary><h1>Age distribution of cases in Göttingen</h1></summary>
+
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/age_goettingen.png"/>
 
-Age statistics for Göttingen. 
-**Top row**: Number of confirmed cases and deaths (left) and age distribution of cases (right). Dotted horizontal lines correspond to % of total population in that age group.
-**Bottom row**: Age distribution for senior citizens (60-79 and 80+ age groups) (left) and age distribution of deaths (right).
+<b>Figure:</b> Age statistics for Göttingen. 
+<b>Top row:</b> Number of confirmed cases and deaths (left) and age distribution of cases (right).
+<b>Bottom row:</b>: Age distribution for senior citizens (60-79 and 80+ age groups) (left) and age distribution of deaths (right).
 
 
 </details>
 
 <details><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
+	
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_pred_en.png"/>
 
