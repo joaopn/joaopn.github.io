@@ -11,7 +11,7 @@ Below you will find up-to-date (daily) figures with the evolution of confirmed c
 
 For more information on the situation in the Goettingen area please consult the [**Goettingen Campus page**](https://goettingen-campus.de/coronavirus), and for more information in Germany please consult the [**Robert Koch Institute page**](https://www.rki.de/EN/Home/homepage_node.html). The data used comes from the [*Robert Koch Institute*](https://corona.rki.de/) and [*John Hopkins University*](https://github.com/CSSEGISandData/COVID-19). All code used is available on [**Github**](https://github.com/joaopn/coronavirus_2020). 
 
-<details open><summary><h1>Age distribution of cases in Germany</h1></summary>
+<details open><summary><h1>Age statistics for Germany</h1></summary>
 
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/age_germany.png"/>
@@ -23,7 +23,7 @@ For more information on the situation in the Goettingen area please consult the 
 
 </details>
 
-<details><summary><h1>Age distribution of cases in Lower Saxony</h1></summary>
+<details><summary><h1>Age statistics for Lower Saxony</h1></summary>
 
 
 Plots for all the other German states are available <a href="https://github.com/joaopn/coronavirus_2020/tree/master/plots/germany/bundesland"><u>here</u></a>.
@@ -38,7 +38,7 @@ Plots for all the other German states are available <a href="https://github.com/
 </details>
 
 
-<details><summary><h1>Age distribution of cases in Göttingen</h1></summary>
+<details><summary><h1>Age statistics for Göttingen</h1></summary>
 
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/age_goettingen.png"/>
@@ -55,7 +55,7 @@ Plots for all the other German states are available <a href="https://github.com/
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_pred_en.png"/>
 
-Evolution of the number of confirmed cases in Germany (left) and Lower Saxony (right), with a forecast based on the average change from the previous 3 days.
+<b>Figure:</b> Evolution of the number of confirmed cases in Germany (left) and Lower Saxony (right), with a forecast based on the average change from the previous 3 days.
 
 </details>
 
@@ -78,7 +78,7 @@ Evolution of the number of confirmed cases in Brazil, United States, United King
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/evolution_en.png"/>
 
-Comparison of the evolution in cases and deaths in Germany, Italy and South Korea. Reported cases are aligned to days after the 100th case, and reported deaths are aligned to days after 1st death.
+<b>Figure:</b> Comparison of the evolution in cases and deaths in Germany, Italy and South Korea. Reported cases are aligned to days after the 100th case, and reported deaths are aligned to days after 1st death.
 
 
 </details>
