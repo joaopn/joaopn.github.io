@@ -11,7 +11,7 @@ Click on the headers below to find up-to-date (daily) figures with the evolution
 
 For more information on the situation in the Goettingen area please consult the [**Goettingen Campus page**](https://goettingen-campus.de/coronavirus), and for more information in Germany please consult the [**Robert Koch Institute page**](https://www.rki.de/EN/Home/homepage_node.html). The data used comes from the [*Robert Koch Institute*](https://corona.rki.de/) and [*John Hopkins University*](https://github.com/CSSEGISandData/COVID-19). All code used is available on [**Github**](https://github.com/joaopn/coronavirus_2020). 
 
-<details><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
+<details open><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
 	
 
 <img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany_local_pred_en.png"/>
