@@ -47,6 +47,28 @@ For more information on the situation in the Goettingen area please consult the 
 
 </details>
 
+<details><summary><h1>Age statistics for all German Bundesland</h1></summary>
+
+
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/baden-wuerttemberg.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/bayern.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/berlin.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/brandenburg.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/bremen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/hamburg.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/mecklenburg-vorpommern.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/niedersachsen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/nordrhein-westfalen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/rheinland-pfalz.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/saarland.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/sachsen.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/sachsen-anhalt.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/schleswig-holstein.png"/>
+<img src="https://raw.githubusercontent.com/joaopn/coronavirus_2020/master/plots/germany/bundesland/thueringen.png"/>
+
+
+</details>
+
 <details><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
 	
 
