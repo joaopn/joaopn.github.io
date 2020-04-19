@@ -9,6 +9,8 @@ author_profile: true
 
 Click on the headers below to find up-to-date (daily) figures with the evolution of confirmed cases and deaths of COVID-19, forecasts and age statistics for different regions and countries.
 
+We are working on a toolbox that uses Bayesian inference to forecast cases of COVID-19 across the globe. [**Link**](https://github.com/Priesemann-Group/covid19_inference)
+
 For more information on the situation in the Goettingen area please consult the [**Goettingen Campus page**](https://goettingen-campus.de/coronavirus), and for more information in Germany please consult the [**Robert Koch Institute page**](https://www.rki.de/EN/Home/homepage_node.html). The data used comes from the [*Robert Koch Institute*](https://corona.rki.de/) and [*John Hopkins University*](https://github.com/CSSEGISandData/COVID-19). All code used is available on [**Github**](https://github.com/joaopn/coronavirus_2020). 
 
 <details open><summary><h1>Forecast for Germany and Lower Saxony</h1></summary>
