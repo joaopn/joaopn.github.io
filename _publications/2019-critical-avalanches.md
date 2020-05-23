@@ -6,7 +6,7 @@ excerpt: ""
 date: 2019-09-08
 venue: 'biorxiv'
 paperurl: 'https://www.biorxiv.org/content/10.1101/759613v1'
-citation: 'Pinheiro Neto, J., Spitzner, F. P. & Priesemann, V. A unified picture of neuronal avalanches arises from the understanding of sampling effects. (2019). doi:10.1101/759613'
+citation: 'Neto, J. P., Spitzner, F. P. & Priesemann, V. A unified picture of neuronal avalanches arises from the understanding of sampling effects. (2019). doi:10.1101/759613'
 ---
 Abstract:
 
