@@ -1,7 +1,7 @@
 ---
 title: "Inhibition as a determinant of activity and criticality in dynamical networks"
 collection: publications
-permalink: /publication/2017-inhibition-rtn
+permalink: /publications/2017-inhibition-rtn
 excerpt: ""
 date: 2017-12-23
 venue: 'arXiv'

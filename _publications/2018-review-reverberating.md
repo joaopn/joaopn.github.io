@@ -1,7 +1,7 @@
 ---
 title: "Operating in a Reverberating Regime Enables Rapid Tuning of Network States to Task Requirements"
 collection: publications
-permalink: /publication/2018-review-reverberating
+permalink: /publications/2018-review-reverberating
 excerpt: ""
 date: 2018-11-06
 venue: 'Frontiers in Systems Neuroscience'

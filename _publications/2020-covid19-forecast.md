@@ -1,7 +1,7 @@
 ---
 title: "Inferring COVID-19 spreading rates and potential change points for case number forecasts"
 collection: publications
-permalink: /publication/2020-covid19-forecast
+permalink: /publications/2020-covid19-forecast
 excerpt: ""
 date: 2020-05-12
 venue: 'Science'

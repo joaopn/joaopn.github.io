@@ -1,7 +1,7 @@
 ---
 title: "A unified picture of neuronal avalanches arises from the understanding of sampling effects"
 collection: publications
-permalink: /publication/2019-critical-avalanches
+permalink: /publications/2019-critical-avalanches
 excerpt: ""
 date: 2019-09-08
 venue: 'biorxiv'

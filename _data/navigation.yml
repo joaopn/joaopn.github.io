@@ -1,19 +1,19 @@
 # main links links
 main:
+  - title: "COVID-19"
+    url: /covid19/
+
   - title: "Publications"
     url: /publications/
+
+  - title: "Blog"
+    url: /blog/
 
   - title: "Presentations"
     url: /presentations/
 
 #  - title: "Teaching"
 #    url: /teaching/
-
-#  - title: "Blog Posts"
-#    url: /year-archive/
-
-  - title: "COVID-19"
-    url: /covid19/
 
   - title: "CV"
     url: /cv/
