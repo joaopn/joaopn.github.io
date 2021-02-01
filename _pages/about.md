@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
+<p style='text-align: justify;'>
+Hi! I'm a physicist working on collective dynamics in complex networks. I focus on understanding how the dynamics and topology of social networks impact information spreading in social media. I'm particularly interested in how network models can help understand and ultimately counteract the spreading of fake news. I'm also interested in brain networks, which I studied during my Ph.D. I have experience with the use of non-equilibrium phase transitions to model how activity spreads in the brain.
 
-**Short bio**\
-I'm a physicist working on collective dynamics in complex networks. I focus on understanding how the dynamics and topology of social networks impact information spreading in social media. I'm particularly interested in how network models can help understand and ultimately counteract the spreading of fake news. I'm also interested in brain networks, which I studied during my Ph.D. I analyzed the role of non-equilibrium phase transitions ("criticality") in modeling how activity spreads in the brain. An up-to-date list of my publications can be found on [Google scholar](https://scholar.google.com/citations?user=nq61A04AAAAJ&hl=en).
+I'm currently a postdoctoral researcher at the <a style='color: black;' href='https://www.ds.mpg.de/3481219/res_heidemann'>Physics of social systems</a> group at the <a style='color: black;' href='http://www.ds.mpg.de'>Max Planck Institute for Dynamics and Self-Organization</a>. An up-to-date list of my publications can be found on <a style='color: black;' href='https://scholar.google.com/citations?user=nq61A04AAAAJ&hl=en'>Google scholar</a>.</p>
 
 **Email:**\
-joaopn [at] ds.mpg.de
+joaopn [at] ds [dot] mpg [dot] de
 
-**Address**\
+**Address:**\
 Joao Pinheiro Neto\
 Max-Planck-Institut für Dynamik und Selbstorganisation\
 Am Faßberg 17\
