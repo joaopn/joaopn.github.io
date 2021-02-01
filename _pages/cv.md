@@ -20,7 +20,7 @@ Education
   * Title: [*A study on the dynamics of neural networks*](http://repositorio.unicamp.br/jspui/handle/REPOSIP/276962) [(PDF)](http://joaopn.github.io/files/dissertations/MSc_Dissertation.pdf)
   * Supervisor: [Prof. Dr. Jose Antonio Brum](https://sites.ifi.unicamp.br/brum/en/)
 
-* **PhD in Physics**, Max Planck Institute for Dynamics and Self-Organization (2020, expected)
+* **PhD in Physics**, Max Planck Institute for Dynamics and Self-Organization (2021)
   * Title: *Criticality and sampling in neural networks*
   * Supervisor: [Dr. Viola Priesemann](http://www.viola-priesemann.de)
 

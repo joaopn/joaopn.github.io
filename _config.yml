@@ -81,8 +81,8 @@ analytics:
 author:
   name             : "Joao Pinheiro Neto"
   avatar           : "profile.jpeg"
-  bio              : "BSc, MSc in Physics. PhD student at the <a style='color: black;' href='http://www.ds.mpg.de'>MPI for Dynamics and Self-Organization</a>."
-  location         : "Gottingen, Germany"
+  bio              : "PhD in Physics. Currently postdoc at the <a style='color: black;' href='http://www.ds.mpg.de'>MPI for Dynamics and Self-Organization</a>."
+  location         : "Göttingen, Germany"
   employer         :
   googlescholar    : "https://scholar.google.de/citations?user=nq61A04AAAAJ&hl"
   email            : "joaoxp@gmail.com"
@@ -96,10 +96,10 @@ author:
   github           : "joaopn"
   google_plus      :
   keybase          :
-  instagram        : "joao.p.n"
+  instagram        : 
   lastfm           :
   linkedin         : "joao-pinheiro-neto-45b649171/"
-  orcid            : #"https://orcid.org/0000-0003-3027-8276"
+  orcid            : "https://orcid.org/0000-0003-3027-8276"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
