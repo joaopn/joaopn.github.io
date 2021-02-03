@@ -26,13 +26,13 @@ Education
 
 Professional experience
 ======
-*02/2021 - Present: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization (Germany)
-  *Description: Researcher at the [Physics of social systems](https://www.ds.mpg.de/3481219/res_heidemann) group, under Dr. Knut Heidemann.
+* 02/2021 - Present: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization (Germany)
+  * Description: Researcher at the [Physics of social systems](https://www.ds.mpg.de/3481219/res_heidemann) group, under Dr. Knut Heidemann
 
 
-*02/2015-01/2021: PhD Candidate at the Max Planck Institute for Dynamics and Self-Organization (Germany)
-  *Description: member of the [Neural systems theory](https://www.viola-priesemann.de/group/) group, under Dr. Viola Priesemann
-  *Funding: National Council for Scientific and Technological Development (CNPq) & Max Planck Society
+* 02/2015-01/2021: PhD Candidate at the Max Planck Institute for Dynamics and Self-Organization (Germany)
+  * Description: member of the [Neural systems theory](https://www.viola-priesemann.de/group/) group, under Dr. Viola Priesemann
+  * Funding: National Council for Scientific and Technological Development (CNPq) & Max Planck Society
 
 * 11/2013-03/2014: Visiting Researcher at the University of Bremen (Germany)
   * Description: stay at the [Complex Systems Lab](http://www.itp.uni-bremen.de/complex/), under Prof. Dr. Stefan Bornholdt
