@@ -20,17 +20,25 @@ Education
   * Title: [*A study on the dynamics of neural networks*](http://joaopn.github.io/files/dissertations/MSc_Dissertation.pdf)
   * Supervisor: [Prof. Dr. Jose Antonio Brum](https://sites.ifi.unicamp.br/brum/en/)
 
-* **PhD in Physics**, Max Planck Institute for Dynamics and Self-Organization (2021)
+* **PhD in Physics**, University of Göttingen (2021)
   * Title: *Criticality and sampling in neural networks*
   * Supervisor: [Dr. Viola Priesemann](http://www.viola-priesemann.de)
 
 Professional experience
 ======
-* 11/2013-03/2014: Visiting Researcher at University of Bremen (Germany)
-  * Description: stay at the [Complex Systems Lab](http://www.itp.uni-bremen.de/complex/), under Prof. Dr. Stefan Bornholdt.
+*02/2021 - Present: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization (Germany)
+  *Description: Researcher at the [Physics of social systems](https://www.ds.mpg.de/3481219/res_heidemann) group, under Dr. Knut Heidemann.
+
+
+*02/2015-01/2021: PhD Candidate at the Max Planck Institute for Dynamics and Self-Organization (Germany)
+  *Description: member of the [Neural systems theory](https://www.viola-priesemann.de/group/) group, under Dr. Viola Priesemann
+  *Funding: National Council for Scientific and Technological Development (CNPq) & Max Planck Society
+
+* 11/2013-03/2014: Visiting Researcher at the University of Bremen (Germany)
+  * Description: stay at the [Complex Systems Lab](http://www.itp.uni-bremen.de/complex/), under Prof. Dr. Stefan Bornholdt
   * Funding: Sao Paulo Research Foundation (FAPESP)
 
-* 2009-2011: Teaching Assistant at State University of Campinas (Brazil)
+* 2009-2011: Teaching Assistant at the State University of Campinas (Brazil)
   * Description: Teaching of classes and holding office hours for undergraduate disciplines.
   * Disciplines: Experimental Physics I (2009, 2011), Probability I (2010)
 
