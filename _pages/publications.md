@@ -9,7 +9,7 @@ author_profile: true
 
 6. Dehning, J., Spitzner, F. P., Linden, M. C., Mohr, S. B., Pinheiro Neto, J., Zierenberg, J., Wibral, M., Wilczek, M., & Priesemann, V. (2020). [*Model-based and model-free characterization of epidemic outbreaks*](http://medrxiv.org/content/early/2020/09/18/2020.09.16.20187484.abstract). MedRxiv, 2020.09.16.20187484. 
 
-5. Spitzner, F. P., Dehning, J., Wilting, J., Hagemann, A., Neto, J. P., Zierenberg, J., & Priesemann, V. (2020). [*MR. Estimator, a toolbox to determine intrinsic timescales from subsampled spiking activity*](http://arxiv.org/abs/2007.03367). ArXiv.
+5. Spitzner, F. P., Dehning, J., Wilting, J., Hagemann, A., Neto, J. P., Zierenberg, J., & Priesemann, V. (2020). [*MR. Estimator, a toolbox to determine intrinsic timescales from subsampled spiking activity*](http://arxiv.org/abs/2007.03367). **PLOS One** (in press).
 
 4. Dehning, J., Zierenberg, J., Spitzner, F. P., Wibral, M., Neto, J. P., Wilczek, M., & Priesemann, V. (2020). [I*nferring change points in the spread of COVID-19 reveals the effectiveness of interventions*](https://doi.org/10.1126/science.abb9789). **Science**, 369(6500), eabb9789. 
 
