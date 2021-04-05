@@ -22,6 +22,8 @@ author_profile: true
 
 # Conference abstracts
 
+5. Neto, J. P. & Heidemann, K. [*Cascade dynamics in Reddit communities*](https://www.dpg-verhandlungen.de/year/2021/conference/bpcppdysoe/part/soe/session/3/contribution/7?lang=en). DPG Spring Meeting 2021.
+
 4. Pinheiro Neto J, Spitzner FP, Priesemann V (2019). [*Criticality lies in the sampling: explaining the contradiction between neuronal avalanches from LFP and spikes*](https://doi.org/10.12751/nncn.bc2019.0122). Bernstein Conference 2019.
 
 3. Pinheiro Neto, J., de Aguiar, M. A. M., Brum, J. A., & Bornholdt, S. (2018). [*Inhibition as a determinant of activity and criticality in dynamical networks*](https://www.dpg-verhandlungen.de/year/2018/conference/berlin/part/dy/session/73/contribution/6?lang=en). DPG Berlin 2018.
@@ -31,6 +33,8 @@ author_profile: true
 1. Pinheiro Neto, J., Bluhm, H., & Priesemann, V. (2016). [*Deceptive Power-Laws: asserting criticality from coarse measures*](https://doi.org/10.12751/nncn.bc2016.0167). Bernstein Conference 2016.
 
 # Theses
+
+- Neto, J. P. (2021). [Criticality and sampling in neural networks](http://joaopn.github.io/files/dissertations/PhD_Thesis.pdf). PhD Thesis, University of Göttingen.
 
 - Pinheiro Neto, J. (2014). [*A study on the structure and dynamics of complex networks*](http://joaopn.github.io/files/dissertations/MSc_Dissertation.pdf). MSc Thesis, State University of Campinas.
 

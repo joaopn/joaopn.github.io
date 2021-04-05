@@ -14,15 +14,16 @@ redirect_from:
 
 Education
 ======
-* **BSc in Physics**, State University of Campinas (2011)
-
+* **PhD in Physics**, University of Göttingen (2021)
+  * Title: [*Criticality and sampling in neural networks*](http://hdl.handle.net/21.11130/00-1735-0000-0005-1589-9)
+  * Supervisor: [Dr. Viola Priesemann](http://www.viola-priesemann.de)
+  
 * **MSc in Physics**, State University of Campinas (2014)
   * Title: [*A study on the dynamics of neural networks*](http://joaopn.github.io/files/dissertations/MSc_Dissertation.pdf)
   * Supervisor: [Prof. Dr. Jose Antonio Brum](https://sites.ifi.unicamp.br/brum/en/)
 
-* **PhD in Physics**, University of Göttingen (2021)
-  * Title: *Criticality and sampling in neural networks*
-  * Supervisor: [Dr. Viola Priesemann](http://www.viola-priesemann.de)
+* **BSc in Physics**, State University of Campinas (2011)
+
 
 Professional experience
 ======
