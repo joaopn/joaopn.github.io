@@ -17,7 +17,7 @@ I'm currently a postdoctoral researcher at the <a style='color: black;' href='ht
 joaopn [at] ds [dot] mpg [dot] de
 
 **Address:**\
-Joao Pinheiro Neto\
+Dr. Joao Pinheiro Neto\
 Max-Planck-Institut für Dynamik und Selbstorganisation\
 Am Faßberg 17\
 37077 Göttingen
