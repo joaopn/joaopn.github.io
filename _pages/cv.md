@@ -52,8 +52,8 @@ Skills
 
 * Computational:
   * Proficient: python, MATLAB®, git
-  * Intermediate:  Shell Script, C, Mathematica®
-  * Basic: R, SQL, TensorFlow, Julia
+  * Intermediate:  MongoDB®, Mathematica®
+  * Basic: R, SQL, Julia
 
 
 Publications
