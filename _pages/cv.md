@@ -27,7 +27,10 @@ Education
 
 Professional experience
 ======
-* 02/2021 - Present: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization (Germany)
+* 02/2023 - present: Postdoctoral Researcher at the University of Konstanz (Germany)
+  * Description: Researcher at the [Social Data Science Lab](https://dgarcia.eu/), under Prof. David Garcia
+
+* 02/2021 - 01/2023: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization (Germany)
   * Description: Researcher at the [Physics of social systems](https://www.ds.mpg.de/3481219/res_heidemann) group, under Dr. Knut Heidemann
 
 
