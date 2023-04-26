@@ -6,18 +6,17 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Teaching"
+    url: /teaching/
+
 #  - title: "COVID-19"
 #    url: /covid19/
 
-  - title: "Photos"
-    url: /photos/
+  # - title: "Photos"
+  #   url: /photos/
 
   - title: "Blog"
     url: /blog/
-
-
-#  - title: "Teaching"
-#    url: /teaching/
 
   - title: "CV"
     url: /cv/
