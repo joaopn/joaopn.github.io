@@ -54,9 +54,8 @@ Skills
 * Data Analysis
 
 * Computational:
-  * Proficient: python, MATLAB®, git
-  * Intermediate:  MongoDB®, Mathematica®
-  * Basic: R, SQL, Julia
+  * Proficient: python, SQL, MongoDB, MATLAB, git, bash
+  * Basic: R, Julia, Mathematica, C/C++
 
 
 Publications

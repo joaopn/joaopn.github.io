@@ -17,12 +17,5 @@ I'm currently a postdoctoral researcher in the <a style='color: black;' href='ht
 **Email:**\
 joaoxp [at] gmail [dot] com
 
-**Address:**\
-Dr. Joao Pinheiro Neto\
-Max-Planck-Institut für Dynamik und Selbstorganisation\
-Am Faßberg 17\
-37077 Göttingen
-
-
 
 
