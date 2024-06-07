@@ -16,7 +16,7 @@ Education
 ======
 * **PhD in Physics**, University of Göttingen (2021)
   * Title: [*Criticality and sampling in neural networks*](http://hdl.handle.net/21.11130/00-1735-0000-0005-1589-9)
-  * Supervisor: [Dr. Viola Priesemann](http://www.viola-priesemann.de)
+  * Supervisor: [Prof. Dr. Viola Priesemann](http://www.viola-priesemann.de)
   
 * **MSc in Physics**, State University of Campinas (2014)
   * Title: [*A study on the dynamics of neural networks*](http://joaopn.github.io/files/dissertations/MSc_Dissertation.pdf)
@@ -27,7 +27,14 @@ Education
 
 Professional experience
 ======
-* 02/2023 - present: Postdoctoral Researcher at the University of Konstanz (Germany)
+
+* 06/2024 - present: Postdoctoral Researcher at the University of Graz (Austria)
+  * Description: Postdoctoral Researcher at the [IDea_Lab](https://idea-lab.uni-graz.at/en/our-researchers/data-analysis/), under Prof. Jana Lasser
+
+* 10/2023 - 05/2024: Postdoctoral Researcher at the RWTH Aachen University (Germany)
+  * Description: Postdoctoral Researcher at the Chair for Computational Social Sciences and Humanities, under Prof. Jana Lasser
+
+* 02/2023 - 08/2023: Postdoctoral Researcher at the University of Konstanz (Germany)
   * Description: Researcher at the [Social Data Science Lab](https://dgarcia.eu/), under Prof. David Garcia
 
 * 02/2021 - 01/2023: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization (Germany)
@@ -54,7 +61,7 @@ Skills
 * Data Analysis
 
 * Computational:
-  * Proficient: python, SQL, MongoDB, MATLAB, git, bash
+  * Proficient: python, SQL, MongoDB, LLM stack, MATLAB, git, bash
   * Basic: R, Julia, Mathematica, C/C++
 
 
