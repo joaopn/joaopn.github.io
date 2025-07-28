@@ -34,8 +34,8 @@ import pandas as pd
 
 # In[3]:
 
-publications = pd.read_excel("publications.xls")
-print(publications)
+publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+publications
 
 
 # ## Escape special characters

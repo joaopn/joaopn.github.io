@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-
 [Complete CV](http://joaopn.github.io/files/CV.pdf)
 
 Education
@@ -28,30 +27,18 @@ Education
 Professional experience
 ======
 
-* 06/2024 - present: Postdoctoral Researcher at the University of Graz (Austria)
-  * Description: Postdoctoral Researcher at the [IDea_Lab](https://idea-lab.uni-graz.at/en/our-researchers/data-analysis/), under Prof. Jana Lasser
+* 06/2024 - present: Postdoctoral Researcher at the University of Graz, Austria. PI: [Jana Lasser](https://janalasser.at/)
 
-* 10/2023 - 05/2024: Postdoctoral Researcher at the RWTH Aachen University (Germany)
-  * Description: Postdoctoral Researcher at the Chair for Computational Social Sciences and Humanities, under Prof. Jana Lasser
+* 10/2023 - 05/2024: Postdoctoral Researcher at the RWTH Aachen University, Germany. PI: [Jana Lasser](https://janalasser.at/)
 
-* 02/2023 - 08/2023: Postdoctoral Researcher at the University of Konstanz (Germany)
-  * Description: Researcher at the [Social Data Science Lab](https://dgarcia.eu/), under Prof. David Garcia
+* 02/2023 - 08/2023: Postdoctoral Researcher at the University of Konstanz, Germany. PI: [David Garcia]((https://dgarcia.eu/))
 
-* 02/2021 - 01/2023: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization (Germany)
-  * Description: Researcher at the [Physics of social systems](https://www.ds.mpg.de/3481219/res_heidemann) group, under Dr. Knut Heidemann
+* 02/2021 - 01/2023: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization, Germany. PI: [Stephan Herminghaus](https://www.ds.mpg.de/dcf)
 
+* 02/2015 - 01/2021: PhD Candidate at the Max Planck Institute for Dynamics and Self-Organization, Germany. PI: [Viola Priesemann](https://www.viola-priesemann.de/)
 
-* 02/2015-01/2021: PhD Candidate at the Max Planck Institute for Dynamics and Self-Organization (Germany)
-  * Description: member of the [Neural systems theory](https://www.viola-priesemann.de/group/) group, under Dr. Viola Priesemann
-  * Funding: National Council for Scientific and Technological Development (CNPq) & Max Planck Society
+* 11/2013 - 03/2014: Visiting Researcher at the University of Bremen, Germany. PI: [Stefan Bornholdt](http://www.itp.uni-bremen.de/complex/)
 
-* 11/2013-03/2014: Visiting Researcher at the University of Bremen (Germany)
-  * Description: stay at the [Complex Systems Lab](http://www.itp.uni-bremen.de/complex/), under Prof. Dr. Stefan Bornholdt
-  * Funding: Sao Paulo Research Foundation (FAPESP)
-
-* 2009-2011: Teaching Assistant at the State University of Campinas (Brazil)
-  * Description: Teaching of classes and holding office hours for undergraduate disciplines.
-  * Disciplines: Experimental Physics I (2009, 2011), Probability I (2010)
 
 Skills
 ======
@@ -70,3 +57,19 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams

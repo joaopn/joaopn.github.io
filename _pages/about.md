@@ -3,7 +3,7 @@ permalink: /
 title: "About"
 excerpt: "About"
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
@@ -19,6 +19,3 @@ I'm currently a postdoctoral researcher in the <a style='color: black;' href='ht
 
 **Email:**\
 joaoxp [at] gmail [dot] com
-
-
-
