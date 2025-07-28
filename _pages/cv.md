@@ -27,49 +27,24 @@ Education
 Professional experience
 ======
 
-* 06/2024 - present: Postdoctoral Researcher at the University of Graz, Austria. PI: [Jana Lasser](https://janalasser.at/)
+* *06/2024 -* : Postdoctoral Researcher at the University of Graz, Austria (PI: [Jana Lasser](https://janalasser.at/))
 
-* 10/2023 - 05/2024: Postdoctoral Researcher at the RWTH Aachen University, Germany. PI: [Jana Lasser](https://janalasser.at/)
+* *10/2023 - 05/2024*: Postdoctoral Researcher at the RWTH Aachen University, Germany (PI: [Jana Lasser](https://janalasser.at/))
 
-* 02/2023 - 08/2023: Postdoctoral Researcher at the University of Konstanz, Germany. PI: [David Garcia]((https://dgarcia.eu/))
+* *02/2023 - 08/2023*: Postdoctoral Researcher at the University of Konstanz, Germany (PI: [David Garcia](https://dgarcia.eu/))
 
-* 02/2021 - 01/2023: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization, Germany. PI: [Stephan Herminghaus](https://www.ds.mpg.de/dcf)
+* *02/2021 - 01/2023*: Postdoctoral Researcher at the Max Planck Institute for Dynamics and Self-Organization, Germany. (PI: [Stephan Herminghaus](https://www.ds.mpg.de/dcf))
 
-* 02/2015 - 01/2021: PhD Candidate at the Max Planck Institute for Dynamics and Self-Organization, Germany. PI: [Viola Priesemann](https://www.viola-priesemann.de/)
+* *02/2015 - 01/2021*: PhD Candidate at the Max Planck Institute for Dynamics and Self-Organization, Germany (PI: [Viola Priesemann](https://www.viola-priesemann.de/))
 
-* 11/2013 - 03/2014: Visiting Researcher at the University of Bremen, Germany. PI: [Stefan Bornholdt](http://www.itp.uni-bremen.de/complex/)
+* *11/2013 - 03/2014*: Visiting Researcher at the University of Bremen, Germany (PI: [Stefan Bornholdt](http://www.itp.uni-bremen.de/complex/))
 
 
 Skills
 ======
-
 * Modelling
-
 * Data Analysis
-
-* Computational:
+* Databases
+* Coding:
   * Proficient: python, SQL, MongoDB, LLM stack, MATLAB, git, bash
   * Basic: R, Julia, Mathematica, C/C++
-
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
