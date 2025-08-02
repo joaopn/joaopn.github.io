@@ -5,11 +5,13 @@ permalink: /teaching/
 author_profile: true
 ---
 
-- Summer 2024
-	- **Social Networks**
-	- RWTH Aachen University, CSSH Masters Summer 2024
+{% include base_path %}
 
-- Summer 2023
-	- **Network Science of Online Interactions**
-	- University of Konstanz, SEDS Masters Summer 2023 (6 ECTS)
-	- [Github link](https://github.com/joaopn/teaching_networks_2023)
+{% assign grouped_posts = site.teaching | group_by: 'season' | sort: 'name' | reverse %}
+
+{% for group in grouped_posts %}
+  <h2>{{ group.name }}</h2>
+  {% for post in group.items reversed %}
+    {% include archive-single-teaching.html %}
+  {% endfor %}
+{% endfor %}
