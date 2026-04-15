@@ -24,6 +24,11 @@ html {
   background: $background-color;
 }
 
+.masthead__inner-wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
 .greedy-nav {
   font-size: 1.25em;
 
@@ -45,36 +50,32 @@ html {
     height: 100vh;
     overflow-y: auto;
     padding-top: 60px;
-    width: 15.25%;
+    left: max(0px, calc((100vw - 1080px) / 2));
+    width: min(15.25%, 165px);
     opacity: 1;
 
     &:hover {
       opacity: 1;
     }
   }
-
-  @include breakpoint($x-large) {
-    width: 15.25%;
-    max-width: 250px;
-  }
 }
 
-/* Content: original uses Susy span(10 of 12 last) + prefix(0.5) + suffix(2)
-   = 83% width, ~5% left padding, ~17% right padding → ~760px visible text */
+/* Content area within the constrained #main container */
 .page,
 .archive {
   @include breakpoint($large) {
     float: right;
     width: 83%;
     padding-left: 5%;
-    padding-right: 17%;
-    padding-inline-end: 17%;
+    padding-right: 5%;
+    padding-inline-end: 5%;
   }
 }
 
-/* #main: match original margin-top */
+/* #main: constrain width and center */
 #main {
-  margin-top: 2em;
+  max-width: 1080px;
+  margin: 2em auto 0;
 }
 
 /* Dark mode toggle button */
