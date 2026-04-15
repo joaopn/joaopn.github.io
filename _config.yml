@@ -1,0 +1,185 @@
+# Theme
+remote_theme             : "mmistakes/minimal-mistakes"
+theme                    : minimal-mistakes-jekyll  # for local development
+minimal_mistakes_skin    : "default"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "joaopn.github.io"
+title_separator          : "-"
+name                     : &name "Joao Pinheiro Neto"
+description              : &description "Website of Joao Pinheiro Neto"
+url                      : "https://joaopn.github.io"
+baseurl                  : ""
+repository               : "joaopn/joaopn.github.io"
+words_per_minute         : 160
+future                   : true
+
+# Site Author
+author:
+  name             : "Joao Pinheiro Neto"
+  avatar           : "/images/profile.jpeg"
+  bio              : "PhD in Physics. Postdoc @<a href='https://uni-graz.at/en/'>Uni-Graz</a>."
+  location         : "Vienna, Austria"
+  links:
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.de/citations?user=nq61A04AAAAJ&hl"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/joaopn"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/joaopn.bsky.social"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/joao-pinheiro-neto-45b649171/"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/joaopn"
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Capfile
+  - CHANGELOG
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Etc/UTC
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-include-cache
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Analytics
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: "UA-117211354-1"
+
+# SEO
+google_site_verification :
+bing_site_verification   :
+
+atom_feed:
+  hide: false

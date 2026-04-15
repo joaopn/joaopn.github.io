@@ -1,0 +1,27 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+  {% if post.url %}
+    <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: inherit;">
+  {% endif %}
+  <div class="textbox{% if post.url %} textbox-clickable{% endif %}">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+      <h2 class="archive__item-title" itemprop="headline">
+        {{ title }}
+      </h2>
+      <p>&nbsp;</p>
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip }}</p>
+      {% endif %}
+    </article>
+  </div>
+  {% if post.url %}
+    </a>
+  {% endif %}
+</div>
+
+<div style="margin-bottom: 2em;"></div>

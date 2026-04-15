@@ -1,0 +1,28 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+  {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" style="text-decoration: none; color: inherit;">
+  {% endif %}
+  <div class="textbox{% if post.paperurl %} textbox-clickable{% endif %}">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+      <h2 class="archive__item-title" itemprop="headline">
+        {{ title }}
+        {% if post.paperurl %}
+          <i class="fas fa-external-link-alt" aria-hidden="true" style="margin-left: 0.5em; font-size: 0.8em;"></i>
+        {% endif %}
+      </h2>
+      <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip }}</p>
+      {% endif %}
+    </article>
+  </div>
+  {% if post.paperurl %}
+    </a>
+  {% endif %}
+</div>
