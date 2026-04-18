@@ -1,5 +1,6 @@
 ---
 title: "Arqus Summer School"
+description: "Fundamental Lectures on AI"
 collection: teaching
 season: "Summer 2025"
 venue: "Graz University"

@@ -1,5 +1,5 @@
 ---
-title: "Other projects"
+title: "Physics &amp; Computational Neuroscience"
 collection: research
 order: 3
 permalink: /research/other-projects/

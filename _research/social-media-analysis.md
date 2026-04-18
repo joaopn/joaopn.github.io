@@ -8,16 +8,16 @@ excerpt: "Social media is multifaceted, non-stationary and heterogeneous. I focu
 
 ## Dynamics *of* platforms
 
-I'm interested in how social media platforms work, and what can be changed in terms of algorithms and design decisions to improve them beyond engagement metrics. I approach this through large-scale data analysis and modelling. 
+I've analyzed how social media platforms work, and what can be changed in terms of algorithms and design decisions to improve them beyond engagement metrics. I approach this through large-scale data analysis and modelling. 
 
-Telegram is an important platform, given its size and use for less visible, more private content-sharing. We parsed and made available a large-scale multimodal (text, audio & video transcriptions) dataset of German-language telegram channels [1].
+Telegram is an important platform, given its size and use for less visible, more private content-sharing. We parsed and made available a large-scale multimodal (text, audio & video transcriptions) dataset of German-language telegram channels [1]. The underlying 25TB multimodal ETL pipeline (Python, Snakemake, PyTorch, Whisper) achieved a ~250× real-time transcription factor per GPU on `whisper/large-v3-turbo` through finetuned batching and VAD.
 
 Publications
 1. Angermaier, M., Hoeldrich, E., Lasser, J., **Neto, J.P.**, 2025. The Schwurbelarchiv: a German Language Telegram dataset for the Study of Conspiracy Theories. [DOI:10.48550/arXiv.2504.06318](https://doi.org/10.48550/arXiv.2504.06318)
 
 ## Dynamics *within* platforms
 
-I'm interested in how certain important societal issues interact with, and are affected by, social media. These include
+I've analyzed how certain important societal issues interact with, and are affected by, social media. These include
 - how conspiracy theories evolve on German Telegram [1]
 - how the discourse around climate change has evolved on Reddit [2]
 

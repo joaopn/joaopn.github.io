@@ -8,14 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-<p style='text-align: left;'>
-Hi! I'm a physicist with experience in computational social science. I focus on comparing different social media platforms, trying to understand what makes them tick. I believe that data-driven toy models can help design social media platforms that are better, and more resilient to manipulation by bad actors. I also believe that timely research can influence decision-making and ultimately pressure platforms into design decisions that do more than blindingly chase engagement metrics.
+<div class="textbox textbox--static">
+<p style='text-align: left; margin: 0;'>
+Hi! I'm a computational physicist with experience in end-to-end research and AI pipelines: hardware, data engineering, data science and agentic AI.
 <br />
 <br />
-My approach involves large-scale data collection, as well as analysis and modeling using techniques from physics, statistics, and machine learning.  In particular, I currently focus on large language models as both object of research (their impact on social media) and as tools for simulating and analyzing social media content.
+I have experience as both researcher and technical backbone for multiple research labs, building complex backend infrastructure and directing the computational aspects of research. From my academic career, I have extensive expertise analysing social media platforms at scale, learning what makes them tick.
 <br />
 <br />
-I'm currently a postdoctoral researcher in the <a href='https://idea-lab.uni-graz.at/en/'>IDea_Lab</a> at the <a href='https://www.uni-graz.at/en/'>University of Graz</a>, under <a href='https://janalasser.at/'>Prof. Jana Lasser</a>. An up-to-date list of my publications can be found on <a href='https://scholar.google.com/citations?user=nq61A04AAAAJ&hl=en'>Google Scholar</a>.</p>
-
-**Email:**\
-joaoxp [at] gmail [dot] com
+Recently, I've focused on developing open-source tools to help researchers automatize research tasks through <a href='/projects/sdp/'>ETL data pipelines</a> and <a href='/projects/agentic-dev-sandbox/'>sandboxed agents</a>, while keeping a human-in-the-loop (HITL). 
+<br />
+<br />
+See <a href='/projects/'>Projects</a> for current work, or <a href='/research/'>Research</a> for my academic output in social media dynamics, computational neuroscience, and physics.
+</p>
+</div>

@@ -17,6 +17,13 @@
       {% if post.excerpt %}
         <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip }}</p>
       {% endif %}
+      {% if post.stack %}
+        <div class="stack-tags">
+          {% for tag in post.stack %}
+            <span class="stack-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
     </article>
   </div>
   {% if post.url %}

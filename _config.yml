@@ -6,7 +6,7 @@ minimal_mistakes_skin    : "default"  # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "joaopn.github.io"
 title_separator          : "-"
-name                     : &name "Joao Pinheiro Neto"
+name                     : &name "Joao P. Neto, PhD"
 description              : &description "Website of Joao Pinheiro Neto"
 url                      : "https://joaopn.github.io"
 baseurl                  : ""
@@ -16,9 +16,9 @@ future                   : true
 
 # Site Author
 author:
-  name             : "Joao Pinheiro Neto"
+  name             : "Joao P. Neto, PhD"
   avatar           : "/images/profile.jpeg"
-  bio              : "PhD in Physics. Postdoc @<a href='https://uni-graz.at/en/'>Uni-Graz</a>."
+  bio              : "Computational Physicist<br>AI &amp; Data"
   location         : "Vienna, Austria"
   links:
     - label: "Google Scholar"
@@ -33,6 +33,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/joao-pinheiro-neto-45b649171/"
+    - label: "Hugging Face"
+      icon: "fas fa-fw fa-robot"
+      url: "https://huggingface.co/joaopn"
 
 # Site Footer
 footer:
@@ -101,6 +104,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -139,6 +145,13 @@ defaults:
   - scope:
       path: ""
       type: research
+    values:
+      layout: single
+      author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true

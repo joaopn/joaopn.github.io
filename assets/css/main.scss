@@ -203,6 +203,30 @@ html {
   text-decoration: none;
 }
 
+/* Stack / tech tags inside collection cards */
+.stack-tags {
+  margin-top: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35em;
+}
+
+.stack-tag {
+  display: inline-block;
+  font-family: $monospace;
+  font-size: 0.75em;
+  line-height: 1.4;
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  background-color: rgba(128, 128, 128, 0.15);
+  color: inherit;
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .stack-tag {
+  background-color: rgba(200, 200, 200, 0.12);
+}
+
 /* Card-style boxes for collection items and blog post links */
 .textbox {
   background-color: transparent;
@@ -242,4 +266,28 @@ html {
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
   }
+
+  &.textbox--static {
+    padding: 0.8em 1.4em;
+    cursor: default;
+
+    &:hover {
+      background-color: transparent;
+      border: 1px solid $border-color;
+      transform: none;
+      box-shadow: none;
+    }
+
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    ul:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+[data-theme="dark"] .textbox.textbox--static:hover {
+  border-color: #393e46;
 }
