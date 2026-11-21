@@ -1,0 +1,16 @@
+{%- assign pub = include.pub -%}
+<div class="pub" data-a="{{ pub.area | default: 'none' }}"{% if pub.thesis %} data-th{% endif %}>
+  <span class="y">{% if include.show_year %}{{ pub.year }}{% endif %}</span>
+  <div>
+    <span class="t">{{ pub.title }}</span>
+    {%- if pub.thesis %}<span class="tg th">{{ pub.thesis }}</span>{% endif %}
+    {%- if pub.area and include.tags -%}
+      {%- assign ar = site.areas | where: "key", pub.area | first -%}
+      <button type="button" class="tg" data-area="{{ pub.area }}">{{ ar.tag }}</button>
+    {%- endif %}
+    <div class="a">
+      {%- for a in pub.authors -%}{% if a == pub.me %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{%- endfor -%}
+      {%- if pub.url_label %} · {{ pub.venue }} · <a href="{{ pub.url }}">{{ pub.url_label }}</a>{% else %} · <a href="{{ pub.url }}">{{ pub.venue }}</a>{% endif -%}
+    </div>
+  </div>
+</div>

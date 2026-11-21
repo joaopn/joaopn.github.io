@@ -1,0 +1,99 @@
+# Research page publication list (grouped by year, newest first: keep this file in that order)
+# and the homepage "Selected publications" (selected: true).
+#   area:   key of an _areas/ file (sm, neuro, epi, cx); omit for none
+#   thesis: badge text for theses
+#   me:     the author entry to show in bold
+#   url_label: when set, the venue is plain text and the link reads url_label
+
+- year: 2025
+  title: "The Schwurbelarchiv: a German Language Telegram dataset for the Study of Conspiracy Theories"
+  authors: [Angermaier, Hoeldrich, Lasser, Neto]
+  me: Neto
+  venue: arXiv
+  url: https://doi.org/10.48550/arXiv.2504.06318
+  area: sm
+  selected: true
+- year: 2025
+  title: "Characterizing the Dynamics of Conspiracy Related German Telegram Conversations during COVID-19"
+  authors: [Höldrich, Angermaier, Lasser, Pinheiro-Neto]
+  me: Pinheiro-Neto
+  venue: arXiv
+  url: https://doi.org/10.48550/arXiv.2507.13398
+  area: sm
+- year: 2024
+  title: "The Impact of Fridays for Future on Climate Change Attitudes and Behavior on Reddit"
+  authors: [Di Natale, Neto, Gaupp, Eker]
+  me: Neto
+  venue: SSRN
+  url: https://doi.org/10.2139/ssrn.4904128
+  area: sm
+- year: 2022
+  title: "Sampling effects and measurement overlap can bias the inference of neuronal avalanches"
+  authors: [Neto, Spitzner, Priesemann]
+  me: Neto
+  venue: PLoS Comput Biol
+  url: https://doi.org/10.1371/journal.pcbi.1010678
+  area: neuro
+  selected: true
+- year: 2021
+  title: "Criticality and sampling in neural networks"
+  authors: [Pinheiro Neto]
+  me: Pinheiro Neto
+  venue: University of Göttingen
+  url: /files/dissertations/PhD_Thesis.pdf
+  url_label: PDF
+  area: neuro
+  thesis: PhD thesis
+- year: 2021
+  title: "MR. Estimator, a toolbox to determine intrinsic timescales from subsampled spiking activity"
+  authors: [Spitzner, Dehning, Wilting, Hagemann, Neto, Zierenberg, Priesemann]
+  me: Neto
+  venue: PLoS ONE
+  url: https://doi.org/10.1371/journal.pone.0249447
+  area: neuro
+- year: 2020
+  title: "Inferring change points in the spread of COVID-19 reveals the effectiveness of interventions"
+  authors: [Dehning, Zierenberg, Spitzner, Wibral, Neto, Wilczek, Priesemann]
+  me: Neto
+  venue: Science
+  url: https://doi.org/10.1126/science.abb9789
+  area: epi
+  selected: true
+- year: 2020
+  title: "Model-based and model-free characterization of epidemic outbreaks"
+  authors: [Dehning, Spitzner, Linden, Mohr, Neto, Zierenberg, Wibral, Wilczek, Priesemann]
+  me: Neto
+  venue: medRxiv
+  url: https://doi.org/10.1101/2020.09.16.20187484
+  area: epi
+- year: 2018
+  title: "Operating in a Reverberating Regime Enables Rapid Tuning of Network States to Task Requirements"
+  authors: [Wilting, Dehning, Pinheiro Neto, Rudelt, Wibral, Zierenberg, Priesemann]
+  me: Pinheiro Neto
+  venue: Front. Syst. Neurosci.
+  url: https://doi.org/10.3389/fnsys.2018.00055
+  area: neuro
+- year: 2017
+  title: "Inhibition as a determinant of activity and criticality in dynamical networks"
+  authors: [Neto, de Aguiar, Brum, Bornholdt]
+  me: Neto
+  venue: arXiv
+  url: https://doi.org/10.48550/arXiv.1712.08816
+  area: cx
+- year: 2014
+  title: "A study on the structure and dynamics of complex networks"
+  authors: [Pinheiro Neto]
+  me: Pinheiro Neto
+  venue: State University of Campinas
+  url: /files/dissertations/MSc_Dissertation.pdf
+  url_label: PDF
+  area: cx
+  thesis: MSc thesis
+- year: 2011
+  title: "Parametrization of the photoelectron response from the surface module of the Pierre Auger Observatory"
+  authors: [Pinheiro Neto]
+  me: Pinheiro Neto
+  venue: State University of Campinas (in Portuguese)
+  url: /files/dissertations/BSc_Monograph.pdf
+  url_label: PDF
+  thesis: BSc monograph
