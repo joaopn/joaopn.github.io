@@ -175,13 +175,6 @@ plugins:
   - jekyll-include-cache
   - jemoji
 
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 # Analytics
 analytics:

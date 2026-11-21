@@ -3,6 +3,11 @@ layout: archive
 title: "Personal"
 permalink: /personal/
 author_profile: true
+redirect_from:
+  - /year-archive/
+  - /tags/
+  - /categories/
+  - /wordpress/blog-posts/
 ---
 
 ## Blog Posts
@@ -32,22 +37,6 @@ author_profile: true
         </h2>
         <p><i>January 2019</i></p>
         <p class="archive__item-excerpt" itemprop="description">Reflections on air travel, the size of our world, and the humbling experience of crossing oceans at 30,000 feet.</p>
-      </article>
-    </div>
-  </a>
-</div>
-
-## Other Links
-
-<div class="list__item">
-  <a href="/year-archive/" style="text-decoration: none; color: inherit;">
-    <div class="textbox textbox-clickable">
-      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-        <h2 class="archive__item-title" itemprop="headline">
-          All Posts Archive
-          <i class="fas fa-arrow-right" aria-hidden="true" style="margin-left: 0.5em; font-size: 0.8em;"></i>
-        </h2>
-        <p class="archive__item-excerpt" itemprop="description">Chronological archive of all blog posts and personal writing.</p>
       </article>
     </div>
   </a>
