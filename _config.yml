@@ -48,28 +48,12 @@ footer:
 include:
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
   - .bundle
   - .github
-  - .jekyll-assets-cache
   - .sass-cache
-  - Capfile
-  - CHANGELOG
-  - config
-  - Dockerfile
   - Gemfile
   - Gemfile.lock
-  - Gruntfile.js
-  - gulpfile.js
   - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
   - vendor
 keep_files:
   - .git
