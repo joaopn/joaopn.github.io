@@ -5,27 +5,34 @@
 #   me:     the author entry to show in bold
 #   url_label: when set, the venue is plain text and the link reads url_label
 
-- year: 2025
-  title: "The Schwurbelarchiv: a German Language Telegram dataset for the Study of Conspiracy Theories"
-  authors: [Angermaier, Hoeldrich, Lasser, Neto]
-  me: Neto
-  venue: arXiv
-  url: https://doi.org/10.48550/arXiv.2504.06318
+- year: 2026
+  title: "The Schwurbelarchiv: a German-language dataset derived from multimodal Telegram content for the study of conspiracy theories"
+  authors: [Angermaier, Höldrich, Pinheiro Neto, Lasser]
+  me: Pinheiro Neto
+  venue: EPJ Data Science
+  url: https://doi.org/10.1140/epjds/s13688-026-00686-7
   area: sm
   selected: true
-- year: 2025
-  title: "Characterizing the Dynamics of Conspiracy Related German Telegram Conversations during COVID-19"
-  authors: [Höldrich, Angermaier, Lasser, Pinheiro-Neto]
-  me: Pinheiro-Neto
-  venue: arXiv
-  url: https://doi.org/10.48550/arXiv.2507.13398
-  area: sm
-- year: 2024
-  title: "The Impact of Fridays for Future on Climate Change Attitudes and Behavior on Reddit"
+- year: 2026
+  title: "The influence of Fridays for Future on climate change attitudes and behavioral intentions on Reddit"
   authors: [Di Natale, Neto, Gaupp, Eker]
   me: Neto
   venue: SSRN
-  url: https://doi.org/10.2139/ssrn.4904128
+  url: https://doi.org/10.2139/ssrn.5297815
+  area: sm
+- year: 2026
+  title: "TeraGram: A Structured Longitudinal Dataset of the Telegram Messenger"
+  authors: [Golovin, Mohr, Gottwald, Hvid, Trivedi, Neto, Schneider, Priesemann]
+  me: Neto
+  venue: ICWSM
+  url: https://doi.org/10.1609/icwsm.v20i1.42783
+  area: sm
+- year: 2026
+  title: "Characterizing the Dynamics of Conspiracy-Related German Telegram Conversations during COVID-19"
+  authors: [Höldrich, Angermaier, Neto, Lasser]
+  me: Neto
+  venue: J. Quant. Descr. Digit. Media
+  url: https://doi.org/10.51685/jqd.2026.008
   area: sm
 - year: 2022
   title: "Sampling effects and measurement overlap can bias the inference of neuronal avalanches"
