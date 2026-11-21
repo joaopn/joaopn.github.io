@@ -2,6 +2,7 @@
 title: 'How likely that someone we know dies from COVID-19?'
 date: 2020-06-01
 permalink: /blog/2020/covid19-deaths/
+math: true
 tags:
   - COVID19
 ---
