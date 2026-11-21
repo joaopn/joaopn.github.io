@@ -1,6 +1,8 @@
 # Projects page and homepage "Current work" read from this file.
 # Text fields are the maintainer's own words (GitHub descriptions or existing site text): copy, never write.
 #   featured: big cards (homepage + top of /projects/). `docs:` adds a Docs button once a docs site exists.
+#             `topics` are the curated card tags agreed with the maintainer (5 each, `mcp` shared); mirror them
+#             on the repos' GitHub topics when those change.
 #   list:     one-line rows. `wiki: true` adds a Wiki button (GitHub wiki).
 #   models:   Hugging Face models, linked once through the collection.
 
@@ -8,12 +10,12 @@ featured:
   - name: "research-sandbox (RS)"
     repo: joaopn/research-sandbox
     description: "Agentic workflow sandbox tailored for research tasks"
-    topics: [agentic-ai, research, sandbox, workflow]
+    topics: [agentic-ai, docker, mcp, research, sandbox]
     # docs: https://joaopn.github.io/research-sandbox/
   - name: "social-data-pipeline (SDP)"
     repo: joaopn/social-data-pipeline
     description: "Pipeline for processing, classifying, and ingesting large-scale social data"
-    topics: [data-pipeline, nlp, postgresql, reddit, research, social-media, starrocks]
+    topics: [data-pipeline, mcp, postgresql, social-media, starrocks]
     # docs: https://joaopn.github.io/social-data-pipeline/
 
 list:
