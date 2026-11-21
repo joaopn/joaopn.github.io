@@ -3,6 +3,7 @@ title: "Research"
 permalink: /research/
 redirect_from:
   - /teaching/
+  - /projects/social-media-research/
 ---
 
 {% assign sorted_research = site.research | sort: "order" %}

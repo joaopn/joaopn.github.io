@@ -1,0 +1,7 @@
+{%- assign p = include.project -%}
+<div class="pj">
+  <div class="pjh"><a class="stretch" href="https://github.com/{{ p.repo }}"><b>{{ p.name }}</b></a>{% if p.docs %}<span class="btns"><a class="btn pri" href="{{ p.docs }}">Docs</a></span>{% endif %}</div>
+  <div class="repo">{{ p.repo }}</div>
+  <div class="x">{{ p.description }}</div>
+  <div>{% for t in p.topics %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+</div>

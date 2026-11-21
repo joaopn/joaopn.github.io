@@ -1,0 +1,47 @@
+# Projects page and homepage "Current work" read from this file.
+# Text fields are the maintainer's own words (GitHub descriptions or existing site text): copy, never write.
+#   featured: big cards (homepage + top of /projects/). `docs:` adds a Docs button once a docs site exists.
+#   list:     one-line rows. `wiki: true` adds a Wiki button (GitHub wiki).
+#   models:   Hugging Face models, linked once through the collection.
+
+featured:
+  - name: "research-sandbox (RS)"
+    repo: joaopn/research-sandbox
+    description: "Agentic workflow sandbox tailored for research tasks"
+    topics: [agentic-ai, research, sandbox, workflow]
+    # docs: https://joaopn.github.io/research-sandbox/
+  - name: "social-data-pipeline (SDP)"
+    repo: joaopn/social-data-pipeline
+    description: "A CLI framework for end-to-end processing and TB-scale ingestion of social media data into OLAP-tuned PostgreSQL/MongoDB, with high-throughput multi-GPU enrichment and MCP servers for agentic SQL."
+    topics: [data-pipeline, nlp, postgresql, reddit, research, social-media]
+    # docs: https://joaopn.github.io/social-data-pipeline/
+
+list:
+  - repo: joaopn/cvclanker
+    description: "AI-driven self-hosted job search workspace, with latex/MS Word/HTML support"
+    wiki: true
+  - repo: joaopn/gaggiclanker
+    description: "AI-driven archive and analyst for a GaggiMate espresso machine"
+    wiki: true
+  - repo: joaopn/1g1r-webui
+    description: "one-game-one-rom webui and romset manager"
+    wiki: true
+  - repo: cs2-lab/schwurbelarchiv
+    description: "pipeline for processing and analyzing Telegram multimodal data from the Schwurbelarchiv dataset"
+  - repo: joaopn/agentic-dev-sandbox
+    description: "Isolated per-project sandboxes for agentic LLMs"
+  - repo: joaopn/criticalavalanches
+    description: "Package for simulating running and spatially-sampling near-critical branching networks."
+  - repo: joaopn/encoder-optimization-guide
+    description: "Conversion and benchmark of encoder models to ONNX-FP16"
+
+models:
+  intro: "In order to analyze large-scale social media data, I've converted a number of `BERT`-based models to `onnx-fp16`, which can more than 2X the `transformers` throughput."
+  collection: https://huggingface.co/collections/joaopn/onnx-fp16
+  items:
+    - roberta-base-go_emotions-onnx-fp16
+    - unbiased-toxic-roberta-onnx-fp16
+    - roberta-large-openai-detector-onnx-fp16
+    - xlmr-large-toxicity-classifier-v2-onnx-fp16
+    - multilingual-sentiment-analysis-onnx-fp16
+    - twitter-xlm-roberta-base-sentiment-onnx-fp16
