@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="wrap cols">
+<div class="wrap cols{% if page.home %} home{% endif %}">
   {% include sidebar.html %}
   <div class="content{% if page.wide %} content-wide{% endif %}">
     {%- unless page.hide_title %}
