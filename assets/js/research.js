@@ -1,6 +1,7 @@
 // Research page: area chips filter the publication list (combinable); area cards are shortcuts
-// that select their chips; a paper's area tag selects its chip. Selected areas' text (from _areas/)
-// opens in a box above the list. Without JS the full list shows.
+// that select their chips; a paper's area tag selects its chip. Only a card click opens the box
+// above the list (the card's intro plus its areas' text from _areas/); chips and tags only filter.
+// Without JS the full list shows.
 (function () {
   var $ = function (s, r) { return [].slice.call((r || document).querySelectorAll(s)); };
   var cards = $('.ac[data-f]'), chips = $('#pf button'), pl = document.getElementById('pl');
@@ -8,7 +9,7 @@
   var abc = document.getElementById('abc'), abt = document.getElementById('abt');
   if (!pl) return;
   var order = chips.map(function (c) { return c.dataset.f; }).filter(function (f) { return f !== 'all' && f !== 'th'; });
-  var sel = [];
+  var sel = [], box = null; // box: the card whose text is open, set only by a card click
   function same(a, b) { return a.length === b.length && a.every(function (x) { return b.indexOf(x) >= 0; }); }
   function tpl(k) { var t = document.querySelector('template[data-t="' + k + '"]'); return t ? t.innerHTML : ''; }
   function apply() {
@@ -26,41 +27,40 @@
       k.hidden = !ok; if (ok) { shown++; n++; }
     });
     if (lastYr) lastYr.hidden = !shown;
-    var areas = order.filter(function (k) { return sel.indexOf(k) >= 0; });
-    if (areas.length) {
-      abc.innerHTML = (card ? tpl('intro-' + card.id) : '') + areas.map(tpl).join('');
-      abt.textContent = card ? card.querySelector('b').textContent
-        : chips.filter(function (c) { return areas.indexOf(c.dataset.f) >= 0; }).map(function (c) { return c.textContent; }).join(' · ');
+    if (box) {
+      var bf = box.dataset.f.split(' ');
+      abc.innerHTML = tpl('intro-' + box.id) + order.filter(function (k) { return bf.indexOf(k) >= 0; }).map(tpl).join('');
+      abt.textContent = box.querySelector('b').textContent;
       ab.hidden = false;
     } else ab.hidden = true;
     fs.innerHTML = sel.length ? 'Showing ' + n + ' of ' + total + ' · <a href="#publications" id="fclr">show all</a>' : '';
     var clr = document.getElementById('fclr');
-    if (clr) clr.onclick = function (e) { e.preventDefault(); sel = []; apply(); };
+    if (clr) clr.onclick = function (e) { e.preventDefault(); sel = []; box = null; apply(); };
   }
   chips.forEach(function (c) {
     c.addEventListener('click', function () {
       var f = c.dataset.f;
       if (f === 'all') sel = [];
       else { var i = sel.indexOf(f); if (i >= 0) sel.splice(i, 1); else sel.push(f); }
-      apply();
+      box = null; apply();
     });
   });
   cards.forEach(function (c) {
     c.addEventListener('click', function () {
-      var f = c.dataset.f.split(' ');
-      sel = same(f, sel) ? [] : f.slice();
+      var open = box === c;
+      sel = open ? [] : c.dataset.f.split(' '); box = open ? null : c;
       apply();
     });
   });
   $('.tg[data-area]', pl).forEach(function (t) {
     t.addEventListener('click', function () {
-      sel = [t.dataset.area]; apply();
+      sel = [t.dataset.area]; box = null; apply();
       document.getElementById('pf').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
     });
   });
-  document.getElementById('abx').addEventListener('click', function () { sel = []; apply(); });
+  document.getElementById('abx').addEventListener('click', function () { sel = []; box = null; apply(); });
   // /research/#<card-id> (old area-page URLs redirect here) preselects that card
   var h = location.hash.slice(1), pre = h && document.getElementById(h);
-  if (pre && cards.indexOf(pre) >= 0) { sel = pre.dataset.f.split(' '); }
+  if (pre && cards.indexOf(pre) >= 0) { sel = pre.dataset.f.split(' '); box = pre; }
   apply();
 })();
