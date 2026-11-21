@@ -8,7 +8,4 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
   gem 'jekyll-include-cache'
-  gem 'jemoji'
-  gem 'jekyll-gist'
-  gem 'jekyll-paginate'
 end

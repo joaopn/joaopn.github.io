@@ -142,12 +142,9 @@ timezone: Etc/UTC
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-include-cache
-  - jemoji
 
 
 # SEO
