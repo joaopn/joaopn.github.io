@@ -20,10 +20,6 @@ author:
   bio              : "Computational Physicist<br>AI &amp; Data"
   location         : "Vienna, Austria"
   links:
-    - label: "Google Scholar"
-      icon: "google-scholar"
-      url: "https://scholar.google.de/citations?user=nq61A04AAAAJ&hl"
-      footer: true
     - label: "GitHub"
       icon: "github"
       url: "https://github.com/joaopn"
@@ -38,6 +34,10 @@ author:
     - label: "Hugging Face"
       icon: "robot"
       url: "https://huggingface.co/joaopn"
+    - label: "Google Scholar"
+      icon: "google-scholar"
+      url: "https://scholar.google.de/citations?user=nq61A04AAAAJ&hl"
+      footer: true
 
 # Reading Files
 include:
