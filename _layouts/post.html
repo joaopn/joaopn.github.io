@@ -1,0 +1,24 @@
+---
+layout: default
+section: /personal/
+---
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign wpm = site.words_per_minute | default: 200 -%}
+{%- assign minutes = words | divided_by: wpm -%}
+{%- if minutes < 1 %}{% assign minutes = 1 %}{% endif -%}
+<article class="wrap read">
+  <div class="kick">{{ page.date | date: "%B %Y" }} · {{ minutes }} min read</div>
+  <h1>{{ page.title }}</h1>
+  <div class="by">{{ site.author.short_name }}</div>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <nav class="back" aria-label="More writing">
+    <a href="{{ '/personal/' | relative_url }}">← All writing</a>
+    {%- if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }} →</a>
+    {%- elsif page.next %}
+    <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>
+    {%- endif %}
+  </nav>
+</article>

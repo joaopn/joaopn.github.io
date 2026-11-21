@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="wrap cols">
+  {% include sidebar.html %}
+  <div class="content{% if page.wide %} content-wide{% endif %}">
+    {%- unless page.hide_title %}
+    <h1 class="ptitle">{{ page.title }}</h1>
+    {%- endunless %}
+    {{ content }}
+  </div>
+</div>

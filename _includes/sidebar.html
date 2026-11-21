@@ -1,0 +1,13 @@
+<aside class="side" aria-label="Profile">
+  <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" width="120" height="120">
+  <div class="side-text">
+    <b>{{ site.author.name }}</b>
+    <div class="bio">{{ site.author.bio }}</div>
+    <div class="loc">{% include icon.html name="location" %}{{ site.author.location }}</div>
+  </div>
+  <ul class="side-links">
+    {%- for link in site.author.links %}
+    <li><a href="{{ link.url }}" rel="me">{% include icon.html name=link.icon %}<span>{{ link.label }}</span></a></li>
+    {%- endfor %}
+  </ul>
+</aside>

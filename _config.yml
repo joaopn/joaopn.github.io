@@ -1,11 +1,8 @@
-# Theme
-remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default"  # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# No theme: layouts live in _layouts/, styles in assets/css/site.css
 
 # Site Settings
 locale                   : "en-US"
 title                    : "joaopn.github.io"
-title_separator          : "-"
 name                     : &name "Joao P. Neto, PhD"
 description              : &description "Website of Joao Pinheiro Neto"
 url                      : "https://joaopn.github.io"
@@ -17,32 +14,29 @@ future                   : true
 # Site Author
 author:
   name             : "Joao P. Neto, PhD"
+  short_name       : "Joao P. Neto"
   avatar           : "/images/profile.jpeg"
   bio              : "Computational Physicist<br>AI &amp; Data"
   location         : "Vienna, Austria"
   links:
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
+      icon: "google-scholar"
       url: "https://scholar.google.de/citations?user=nq61A04AAAAJ&hl"
+      footer: true
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "github"
       url: "https://github.com/joaopn"
+      footer: true
     - label: "Bluesky"
-      icon: "fab fa-fw fa-bluesky"
+      icon: "bluesky"
       url: "https://bsky.app/profile/joaopn.bsky.social"
+      footer: true
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "linkedin"
       url: "https://www.linkedin.com/in/joao-pinheiro-neto-45b649171/"
     - label: "Hugging Face"
-      icon: "fas fa-fw fa-robot"
+      icon: "robot"
       url: "https://huggingface.co/joaopn"
-
-# Site Footer
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/joaopn"
 
 # Reading Files
 include:
@@ -55,6 +49,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - vendor
+  - README.md
 keep_files:
   - .git
 encoding: "utf-8"
@@ -91,49 +86,15 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
-  # _pages
+      layout: post
   - scope:
       path: ""
-      type: pages
     values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-  # _research
-  - scope:
-      path: ""
-      type: research
-    values:
-      layout: single
-      author_profile: true
-  # _projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
+      layout: page
 
 # Outputting
 permalink: /:categories/:title/
@@ -144,12 +105,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-include-cache
 
-
-# SEO
-google_site_verification :
-bing_site_verification   :
-
-atom_feed:
-  hide: false

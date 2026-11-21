@@ -1,8 +1,6 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
 redirect_from:
   - /publications/2017-inhibition-rtn
   - /publications/2018-review-reverberating

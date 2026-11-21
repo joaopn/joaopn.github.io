@@ -1,8 +1,6 @@
 ---
-layout: archive
 title: "Projects"
 permalink: /projects/
-author_profile: true
 ---
 
 {% assign sorted_projects = site.projects | sort: "order" %}

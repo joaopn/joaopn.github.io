@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="{{ site.locale | slice: 0, 2 | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if page.url == "/" -%}
+    {%- assign page_title = site.name -%}
+  {%- else -%}
+    {%- assign page_title = page.title | append: " - " | append: site.name -%}
+  {%- endif %}
+  <title>{{ page_title | strip_html }}</title>
+  {%- if page.url == "/" -%}{%- assign page_desc = site.description -%}{%- else -%}{%- assign page_desc = page.excerpt | default: site.description -%}{%- endif %}
+  <meta name="description" content="{{ page_desc | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:title" content="{{ page_title | strip_html | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.author.avatar | absolute_url }}">
+  {% feed_meta %}
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+  <link rel="manifest" href="/images/manifest.json">
+  <link rel="icon" href="/images/favicon.ico">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+  {%- if page.math %}
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+  {%- endif %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav">
+    <div class="wrap">
+      <a class="nav-name" href="{{ '/' | relative_url }}">{{ site.author.short_name }}</a>
+      <nav class="nav-links" aria-label="Primary">
+        {%- for link in site.data.navigation.main %}
+          {%- assign is_on = false -%}
+          {%- if page.url contains link.url or page.section == link.url -%}{%- assign is_on = true -%}{%- endif -%}
+          <a href="{{ link.url | relative_url }}"{% if is_on %} class="on" aria-current="page"{% endif %}>{{ link.title }}{% if link.external %} ↗{% endif %}</a>
+        {%- endfor %}
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span class="when-light">{% include icon.html name="moon" %}</span><span class="when-dark">{% include icon.html name="sun" %}</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    {{ content }}
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.author.short_name }}</span>
+      <span class="foot-links">
+        {%- for link in site.author.links %}{% if link.footer %}<a href="{{ link.url }}">{{ link.label }}</a>{% endif %}{% endfor -%}
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var root = document.documentElement, btn = document.querySelector('.theme-toggle');
+      function isDark() {
+        var t = root.getAttribute('data-theme');
+        if (t) return t === 'dark';
+        return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+      btn.addEventListener('click', function () {
+        var next = isDark() ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+    })();
+  </script>
+</body>
+</html>

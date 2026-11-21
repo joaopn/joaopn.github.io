@@ -1,8 +1,6 @@
 ---
-layout: archive
 title: "Software"
 permalink: /software/
-author_profile: true
 ---
 
 This page contains links to software packages and models I've developed or contributed to.

@@ -16,3 +16,4 @@ main:
 
   - title: "CV"
     url: /files/CV.pdf
+    external: true
