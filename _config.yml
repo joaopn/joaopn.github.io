@@ -1,4 +1,5 @@
 # No theme: layouts live in _layouts/, styles in assets/css/site.css
+theme: null
 
 # Site Settings
 locale                   : "en-US"
