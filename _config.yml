@@ -166,12 +166,6 @@ plugins:
   - jemoji
 
 
-# Analytics
-analytics:
-  provider: "google-universal"
-  google:
-    tracking_id: "UA-117211354-1"
-
 # SEO
 google_site_verification :
 bing_site_verification   :
