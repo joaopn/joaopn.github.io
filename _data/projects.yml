@@ -12,8 +12,8 @@ featured:
     # docs: https://joaopn.github.io/research-sandbox/
   - name: "social-data-pipeline (SDP)"
     repo: joaopn/social-data-pipeline
-    description: "A CLI framework for end-to-end processing and TB-scale ingestion of social media data into OLAP-tuned PostgreSQL/MongoDB, with high-throughput multi-GPU enrichment and MCP servers for agentic SQL."
-    topics: [data-pipeline, nlp, postgresql, reddit, research, social-media]
+    description: "Pipeline for processing, classifying, and ingesting large-scale social data"
+    topics: [data-pipeline, nlp, postgresql, reddit, research, social-media, starrocks]
     # docs: https://joaopn.github.io/social-data-pipeline/
 
 list:
