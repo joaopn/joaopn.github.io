@@ -1,6 +1,7 @@
 // Research page: area chips filter the publication list (combinable); area cards are shortcuts
 // that select their chips; a paper's area tag selects its chip. Only a card click opens the box
-// above the list (the card's intro plus its areas' text from _areas/); chips and tags only filter.
+// above the list (the card's intro plus its areas' text from _areas/) and highlights the card;
+// chips and tags only filter, never highlighting a card.
 // Without JS the full list shows.
 (function () {
   var $ = function (s, r) { return [].slice.call((r || document).querySelectorAll(s)); };
@@ -10,15 +11,13 @@
   if (!pl) return;
   var order = chips.map(function (c) { return c.dataset.f; }).filter(function (f) { return f !== 'all' && f !== 'th'; });
   var sel = [], box = null; // box: the card whose text is open, set only by a card click
-  function same(a, b) { return a.length === b.length && a.every(function (x) { return b.indexOf(x) >= 0; }); }
   function tpl(k) { var t = document.querySelector('template[data-t="' + k + '"]'); return t ? t.innerHTML : ''; }
   function apply() {
     chips.forEach(function (c) {
       var f = c.dataset.f, on = f === 'all' ? !sel.length : sel.indexOf(f) >= 0;
       c.classList.toggle('on', on); c.setAttribute('aria-pressed', String(on));
     });
-    var card = cards.filter(function (c) { return same(c.dataset.f.split(' '), sel); })[0] || null;
-    cards.forEach(function (c) { c.classList.toggle('on', c === card); c.setAttribute('aria-pressed', String(c === card)); });
+    cards.forEach(function (c) { c.classList.toggle('on', c === box); c.setAttribute('aria-pressed', String(c === box)); });
     var lastYr = null, shown = 0, n = 0, total = 0;
     $('#pl > *').forEach(function (k) {
       if (k.hasAttribute('data-y')) { if (lastYr) lastYr.hidden = !shown; lastYr = k; shown = 0; return; }
