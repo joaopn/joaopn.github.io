@@ -43,7 +43,9 @@
       <nav class="nav-links" aria-label="Primary">
         {%- for link in site.data.navigation.main %}
           {%- assign is_on = false -%}
-          {%- if page.url contains link.url or page.section == link.url -%}{%- assign is_on = true -%}{%- endif -%}
+          {%- if link.url == "/" -%}
+            {%- if page.url == "/" or page.url == "/index.html" -%}{%- assign is_on = true -%}{%- endif -%}
+          {%- elsif page.url contains link.url or page.section == link.url -%}{%- assign is_on = true -%}{%- endif -%}
           <a href="{{ link.url | relative_url }}"{% if is_on %} class="on" aria-current="page"{% endif %}>{{ link.title }}{% if link.external %} ↗{% endif %}</a>
         {%- endfor %}
       </nav>
