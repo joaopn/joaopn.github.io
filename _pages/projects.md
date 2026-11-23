@@ -12,7 +12,7 @@ redirect_from:
 
 <div class="rows">
 {%- for p in pr.list %}
-  <div class="rw"><div><a class="repo stretch" href="https://github.com/{{ p.repo }}">{{ p.repo }}</a><div class="x">{{ p.description }}</div></div>{% if p.wiki %}<span class="btns"><a class="btn" href="https://github.com/{{ p.repo }}/wiki">Wiki</a></span>{% endif %}</div>
+  <div class="rw"><div><a class="repo stretch" href="https://github.com/{{ p.repo }}">{{ p.repo }}</a><div class="x">{{ p.description }}</div></div>{% if p.docs %}<span class="btns"><a class="btn pri" href="{{ p.docs }}">Docs</a></span>{% endif %}</div>
 {%- endfor %}
 </div>
 
