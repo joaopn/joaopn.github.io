@@ -19,6 +19,9 @@ featured:
     docs: https://joaopn.github.io/social-data-pipeline/
 
 list:
+  - repo: joaopn/clanker-learn
+    description: "clankerized, sandboxed tutor"
+    docs: https://joaopn.github.io/clanker-learn/
   - repo: joaopn/cvclanker
     description: "AI-driven self-hosted job search workspace, with latex/MS Word/HTML support"
     docs: https://joaopn.github.io/cvclanker/
